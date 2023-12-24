@@ -12,6 +12,6 @@ public class Main {
 
             String userName = sc.nextLine();
 
-                System.out.print("Sveiki, "+userName +"!");
+                System.out.print("Sveiki, "+ userName +"!");
         }
     }
