@@ -19,5 +19,15 @@ Atliekame logines operacijas su inicijuotais kintamaisiais, rezultatus isvedame 
         System.out.println("a=1, b=2, a == b = " + (a == b));
         System.out.println("c=4, d=5, c != d = " + (c != d));
         System.out.println("a=1, d=5, a >= d = " + (a >= d));
+
+        boolean myBoolTrue = true;
+        boolean myBoolFalse = false;
+        System.out.println("Boolean != = " + !myBoolTrue);
+        System.out.println("Boolean && = " + (myBoolTrue && myBoolFalse));
+        System.out.println("Boolean && = " + (myBoolTrue && myBoolTrue));
+        System.out.println("Boolean && = " + (myBoolFalse && myBoolFalse));
+        System.out.println("Boolean || = " + (myBoolTrue || myBoolFalse));
+        System.out.println("Boolean || = " + (myBoolTrue || myBoolTrue));
+        System.out.println("Boolean || = " + (myBoolFalse || myBoolFalse));
     }
 }
