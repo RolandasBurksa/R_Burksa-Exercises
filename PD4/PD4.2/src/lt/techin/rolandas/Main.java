@@ -32,7 +32,7 @@ Konvertuojama String tipo kintamuosius i int tipo
         System.out.println("Ar a <= b " + (c <= d));
         System.out.println("____________________");
 /*
-Tie patys veiksmai parodant ivestus kaicius
+Tie patys veiksmai parodant ivestus skaicius
  */
         System.out.println("Ar " + c + " == " + d + " - " + (c == d));
         System.out.println("Ar " + c + " != " + d + " - " + (c != d));
