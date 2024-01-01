@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PD4.iml" filepath="$PROJECT_DIR$/PD4.iml" />
       <module fileurl="file://$PROJECT_DIR$/PD4.1/PD4.1.iml" filepath="$PROJECT_DIR$/PD4.1/PD4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PD4.10/PD4.10.iml" filepath="$PROJECT_DIR$/PD4.10/PD4.10.iml" />
       <module fileurl="file://$PROJECT_DIR$/PD4.2/PD4.2.iml" filepath="$PROJECT_DIR$/PD4.2/PD4.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/PD4.3/PD4.3.iml" filepath="$PROJECT_DIR$/PD4.3/PD4.3.iml" />
       <module fileurl="file://$PROJECT_DIR$/PD4.4/PD4.4.iml" filepath="$PROJECT_DIR$/PD4.4/PD4.4.iml" />
