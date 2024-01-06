@@ -34,7 +34,7 @@ Rotuojame keliones dienas is nelyginiu i lygines
                 System.out.print("|_");
             }
         }
-        if (bakoLikutis > 0) {nuvaziuotosDienos++;   // Tikriname ar dar bake liko kuro po while ciklo, pridedame kiek liko
+        if (bakoLikutis > 0) {nuvaziuotosDienos++;  // Tikriname ar dar bake liko kuro po while ciklo, pridedame kiek liko
             System.out.println("|_");
         }
 
