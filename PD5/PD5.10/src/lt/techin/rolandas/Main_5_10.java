@@ -13,7 +13,7 @@ Inicijuojame kintamuosius, suvedame pradinius duomenis
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
 
-        System.out.print("Iveskite antraji, didesni uz n,  intervalo skaiciu m: ");
+        System.out.print("Iveskite antraji, didesni uz n, intervalo skaiciu m: ");
         Scanner scm = new Scanner(System.in);
         int m = scm.nextInt();
         System.out.println(" n = " + n + ", m = " + m);
