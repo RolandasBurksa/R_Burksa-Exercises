@@ -3,8 +3,9 @@ package lt.udemy.rolandas.section09;
 public class MotorBikeRunner {
     public static void main(String[] args) {
 
-        MotorBike ducati = new MotorBike();
-        MotorBike honda = new MotorBike();
+        MotorBike ducati = new MotorBike(0);
+        MotorBike honda = new MotorBike(0);
+        MotorBike bmw = new MotorBike(); // <- nera klaidos, nes yra konstroktorius 1, kitaip reikia argumento
 
         ducati.start();
         honda.start();
