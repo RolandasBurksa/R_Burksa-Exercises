@@ -10,6 +10,6 @@ public class SimpleInterestCalculatorRunner {
 
         BigDecimal totalValue = calculator.calculateTotalValue(5); // 5 years
 
-        System.out.println(totalValue);
+        System.out.println(totalValue);  // 6187.50000
     }
 }
