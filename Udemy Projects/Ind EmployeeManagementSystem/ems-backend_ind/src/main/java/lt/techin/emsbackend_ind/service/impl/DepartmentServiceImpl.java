@@ -36,7 +36,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
     @Override
     public List<DepartmentDto> getAllDepartments() {
-       List<Department> departments= departmentRepository.findAll();
+       List<Department> departments = departmentRepository.findAll();
         return departments.stream().map((department)-> DepartmentMapper.mapDepartmentDto(department))
                 .collect(Collectors.toList());
     }

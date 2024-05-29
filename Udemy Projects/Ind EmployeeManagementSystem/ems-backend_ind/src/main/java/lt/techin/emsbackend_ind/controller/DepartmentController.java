@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @AllArgsConstructor
 @RestController
 @RequestMapping("/api/departments")
@@ -20,7 +21,7 @@ public class DepartmentController {
 
     // Build Create or Add Department REST API
     @PostMapping
-    public ResponseEntity<DepartmentDto> createDepartmentDto(@RequestBody DepartmentDto departmentDto){
+    public ResponseEntity<DepartmentDto> createDepartment(@RequestBody DepartmentDto departmentDto){
        DepartmentDto department = departmentService.createDepartment(departmentDto);
        return new ResponseEntity<>(department, HttpStatus.CREATED);
     }
