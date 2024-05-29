@@ -30,7 +30,7 @@ const ListEmployeeComponent = () => {
   const navigator = useNavigate();
 
   useEffect(() => {
-    getAllEmployees;
+    getAllEmployees();
   }, []);
 
   function getAllEmployees() {
@@ -56,7 +56,7 @@ const ListEmployeeComponent = () => {
 
     deleteEmployee(id)
       .then((response) => {
-        getAllEmployees;
+        getAllEmployees();
       })
       .catch((error) => {
         console.error(error);
@@ -85,7 +85,7 @@ const ListEmployeeComponent = () => {
             <tr key={employee.id}>
               <td>{employee.id}</td>
               <td>{employee.firstName}</td>
-              <td>{employee.lasName}</td>
+              <td>{employee.lastName}</td>
               <td>{employee.email}</td>
               <td>
                 <button
