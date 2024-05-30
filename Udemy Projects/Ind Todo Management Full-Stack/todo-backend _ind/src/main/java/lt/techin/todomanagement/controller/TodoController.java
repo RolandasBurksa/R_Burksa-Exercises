@@ -50,7 +50,7 @@ public class TodoController {
     @PutMapping("{id}")
     public ResponseEntity<TodoDto> updateTodo(@RequestBody TodoDto todoDto, @PathVariable("id") Long todoId){
         TodoDto updatedTodo = todoService.updateTodo(todoDto, todoId);
-        return  ResponseEntity.ok(updatedTodo);
+        return ResponseEntity.ok(updatedTodo);
     }
 
     // Build Delete Todo Rest API
@@ -58,7 +58,7 @@ public class TodoController {
     @DeleteMapping("{id}")
     public ResponseEntity<String> deleteTodo(@PathVariable("id") Long todoId){
         todoService.deleteTodo(todoId);
-        return ResponseEntity.ok("Todo deleted successfully!");
+        return ResponseEntity.ok("Todo deleted successfully!.");
     }
 
     // Build Complete Todo Rest API
