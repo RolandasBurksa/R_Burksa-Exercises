@@ -105,8 +105,8 @@ const TodoComponent = () => {
                   value={completed}
                   onChange={(e) => setCompleted(e.target.value)}
                 >
-                  <option value={false}>No</option>
-                  <option value={true}>Yes</option>
+                  <option value="false">No</option>
+                  <option value="true">Yes</option>
                 </select>
               </div>
 
