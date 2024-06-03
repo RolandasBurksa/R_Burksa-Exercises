@@ -1,5 +1,6 @@
 package lt.techin.todomanagement.security;
 
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwt;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
@@ -16,7 +17,7 @@ import java.util.Date;
 public class JwtTokenProvider {
 
     @Value("${app.jwt-secret}")
-    private  String jwtSecret;
+    private String jwtSecret;
 
     @Value("${app.jwt-expiration-milliseconds}")
     private long jwtExpirationDate;
@@ -50,19 +51,18 @@ public class JwtTokenProvider {
     // Get username from JWT token
     public String getUsername(String token){
 
-        Jwts.parser()
-                .setSigningKey(key())
+        Claims claims =  Jwts.parser()
+                 .setSigningKey(key())
                 .build()
                 .parseClaimsJws(token)
                 .getBody();
 
-        X509CertSelector claims = null;     // cia improvizacija  turi buti: Srting username = claims.getSubject();
-        String username = String.valueOf(claims.getSubject());
+        String username = claims.getSubject();
         
         return username;
     }
 
-    // Validate JWY Token
+    // Validate JWT Token
     public boolean validateToken(String token){
         Jwts.parser()
                 .setSigningKey(key())
