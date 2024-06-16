@@ -33,13 +33,13 @@ public class StudentController {
     }
 
     // Spring BOOT REST API that handles HTTP PUT Request with Request Param
-    @PutMapping("{id}")
+    @PutMapping("/{id}")
     public Student updatedStudent(@PathVariable int id, @RequestBody Student student){
         return studentService.updateStudent(id, student);
     }
 
     // Spring BOOT REST API that handles HTTP PUT Request with Request Param
-    @DeleteMapping("{id}")
+    @DeleteMapping("/{id}")
     public void deleteStudent(@PathVariable int id){
         studentService.deleteStudent(id);
     }

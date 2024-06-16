@@ -1,7 +1,5 @@
 package com.demo.springboot_rest_api_students_swagger.model;
 
-import java.util.PrimitiveIterator;
-
 public class Student {
 
     private  int id;
