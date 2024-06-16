@@ -1,4 +1,4 @@
-package com.udemi.springboot_rest_api_students.bean;
+package com.udemi.springboot_rest_api_students.model;
 
 public class Student {
 
