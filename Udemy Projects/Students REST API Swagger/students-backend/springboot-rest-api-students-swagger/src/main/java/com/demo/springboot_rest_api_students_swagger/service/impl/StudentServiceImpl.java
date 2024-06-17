@@ -2,6 +2,7 @@ package com.demo.springboot_rest_api_students_swagger.service.impl;
 
 import com.demo.springboot_rest_api_students_swagger.model.Student;
 import com.demo.springboot_rest_api_students_swagger.service.StudentService;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

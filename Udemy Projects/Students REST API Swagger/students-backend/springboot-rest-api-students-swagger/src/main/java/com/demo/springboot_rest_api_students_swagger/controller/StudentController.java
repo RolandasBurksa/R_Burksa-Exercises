@@ -2,6 +2,7 @@ package com.demo.springboot_rest_api_students_swagger.controller;
 
 import com.demo.springboot_rest_api_students_swagger.model.Student;
 import com.demo.springboot_rest_api_students_swagger.service.StudentService;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
