@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lt.techin.testemp.ind_ems_backend_test.dto.EmployeeDto;
 import lt.techin.testemp.ind_ems_backend_test.service.EmployeeService;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,7 +21,7 @@ public class EmployeeController {
     public ResponseEntity<EmployeeDto> createEmployee(@RequestBody EmployeeDto employeeDto){
        EmployeeDto serviceEmployee  = employeeService.createEmployee(employeeDto);
        return new ResponseEntity<>(serviceEmployee, HttpStatus.CREATED);
-    };
+    }
 
     // Build Get Employee REST API
     @GetMapping("{id}")
@@ -51,6 +50,6 @@ public class EmployeeController {
     public ResponseEntity<String> deleteEmployee(@PathVariable("id") Long employeeId){
         employeeService.deleteEmployee(employeeId);
         return ResponseEntity.ok("Employee deleted Successfully !.");
-    };
+    }
 
 }
