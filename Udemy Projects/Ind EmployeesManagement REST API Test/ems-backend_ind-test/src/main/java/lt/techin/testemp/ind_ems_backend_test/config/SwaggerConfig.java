@@ -15,7 +15,7 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI(){
         return new OpenAPI()
                 .info(new Info()
-                        .title("Employee API")
+                        .title("Employee and Department API")
                         .version("1.0.0")
                         .description("API documentation for the Employee API")
                         .termsOfService("http://swagger.io/terms/")
@@ -23,11 +23,28 @@ public class SwaggerConfig {
                         .contact(new Contact().name("Your Name").email("your-email@example.com")));
     }
 
+//    @Bean
+//    public GroupedOpenApi employeeApi() {
+//        return GroupedOpenApi.builder()
+//                .group("employee-api")
+//                .pathsToMatch("/api/employees/**")
+//                .build();
+//    }
+//
+//    @Bean
+//    public GroupedOpenApi departmentApi() {
+//        return GroupedOpenApi.builder()
+//                .group("department-api")
+//                .pathsToMatch("/api/departments/**")
+//                        .build();
+//
+
     @Bean
-    public GroupedOpenApi publicApi() {
+    public GroupedOpenApi organizationApi() {
         return GroupedOpenApi.builder()
-                .group("employees-api")
-                .pathsToMatch("/api/employees/**")
+                .group("organization-api")
+                .pathsToMatch("/api/employees/**", "/api/departments/**")
                 .build();
     }
+
 }
