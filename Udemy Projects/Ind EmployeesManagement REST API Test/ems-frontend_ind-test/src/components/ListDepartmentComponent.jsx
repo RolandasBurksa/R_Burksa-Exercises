@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
-import { getAllDepatrments } from "../services/DepartmentService";
-import { Link } from "react-router-dom";
+import {
+  deleteDepartment,
+  getAllDepatrments,
+} from "../services/DepartmentService";
+import { Link, useNavigate } from "react-router-dom";
 
 const ListDepartmentComponent = () => {
   //   let dummyData = [
@@ -20,7 +23,13 @@ const ListDepartmentComponent = () => {
 
   const [departments, setDepartments] = useState([]);
 
+  const navigator = useNavigate();
+
   useEffect(() => {
+    listOfDepartments();
+  }, []);
+
+  function listOfDepartments() {
     getAllDepatrments()
       .then((response) => {
         console.log(response.data);
@@ -29,7 +38,22 @@ const ListDepartmentComponent = () => {
       .catch((error) => {
         console.error(error);
       });
-  }, []);
+  }
+
+  function updateDepartment(id) {
+    navigator(`/edit-department/${id}`);
+  }
+
+  function removeDepartment(id) {
+    deleteDepartment(id)
+      .then((response) => {
+        console.log(response.data);
+        listOfDepartments();
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
 
   return (
     <div className="container">
@@ -43,6 +67,7 @@ const ListDepartmentComponent = () => {
             <th>DepartmentId</th>
             <th>Department Name</th>
             <th>Department Description</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -51,6 +76,21 @@ const ListDepartmentComponent = () => {
               <td>{department.id}</td>
               <td>{department.departmentName}</td>
               <td>{department.departmentDescription}</td>
+              <td>
+                <button
+                  onClick={() => updateDepartment(department.id)}
+                  className="btn btn-info"
+                >
+                  Update
+                </button>
+                <button
+                  onClick={() => removeDepartment(department.id)}
+                  className="btn btn-danger"
+                  style={{ marginLeft: "10px" }}
+                >
+                  Delete
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>
