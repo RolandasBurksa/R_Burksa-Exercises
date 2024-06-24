@@ -5,6 +5,7 @@ import HeaderComponent from "./components/HeaderComponent";
 import ListEmployeeComponent from "./components/ListEmployeeComponent";
 import EmployeeComponent from "./components/EmployeeComponent";
 import ListDepartmentComponent from "./components/ListDepartmentComponent";
+import DepartmentComponent from "./components/DepartmentComponent";
 
 function App() {
   return (
@@ -27,6 +28,11 @@ function App() {
           <Route
             path="/departments"
             element={<ListDepartmentComponent />}
+          ></Route>
+          {/* // http://localhost:3000/add-departmet*/}
+          <Route
+            path="/add-department"
+            element={<DepartmentComponent />}
           ></Route>
         </Routes>
         <FooterComponent />
