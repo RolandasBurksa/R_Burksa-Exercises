@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
-import { createEmployee, getEmlployee } from "../services/EmployeeService";
+import {
+  createEmployee,
+  getEmployee,
+  updateEmployee,
+} from "../services/EmployeeService";
 import { useNavigate, useParams } from "react-router-dom";
 
 const EmployeeComponent = () => {
@@ -19,7 +23,7 @@ const EmployeeComponent = () => {
 
   useEffect(() => {
     if (id) {
-      getEmlployee(id)
+      getEmployee(id)
         .then((response) => {
           setFirstName(response.data.firstName);
           setLastName(response.data.lastName);
@@ -31,17 +35,32 @@ const EmployeeComponent = () => {
     }
   }, [id]);
 
-  function saveEmployee(e) {
+  function saveRrUpdateEmployee(e) {
     e.preventDefault();
 
     if (validateForm()) {
       const employee = { firstName, lastName, email };
       console.log(employee);
 
-      createEmployee(employee).then((response) => {
-        console.log(response.data);
-        navigator("/employees");
-      });
+      if (id) {
+        updateEmployee(id, employee)
+          .then((response) => {
+            console.log(response.data);
+            navigator("/employees");
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      } else {
+        createEmployee(employee)
+          .then((response) => {
+            console.log(response.data);
+            navigator("/employees");
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
     }
   }
 
@@ -146,7 +165,10 @@ const EmployeeComponent = () => {
                   )}
                 </div>
 
-                <button className="btn btn-success" onClick={saveEmployee}>
+                <button
+                  className="btn btn-success"
+                  onClick={saveRrUpdateEmployee}
+                >
                   Submit
                 </button>
               </form>
