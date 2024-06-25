@@ -1,9 +1,12 @@
 package lt.techin.testemp.ind_ems_backend_test.config;
 
+import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.HeadersConfigurer;
 import org.springframework.security.core.userdetails.User;
@@ -15,7 +18,10 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
+@AllArgsConstructor
 public class SpringSecurityConfig {
+
+    private UserDetailsService userDetailsService;
 
     @Bean
     public static PasswordEncoder passwordEncoder(){
@@ -40,20 +46,25 @@ public class SpringSecurityConfig {
     }
 
     @Bean
-    public UserDetailsService userDetailsService(){
-
-        UserDetails vartotojas = User.builder()
-                .username("vartotojas")
-                .password(passwordEncoder().encode( "vartotojas"))
-                .roles("USER")
-                .build();
-
-        UserDetails admin = User.builder()
-                .username("admin")
-                .password(passwordEncoder().encode( "admin"))
-                .roles("ADMIN")
-                .build();
-
-        return new InMemoryUserDetailsManager(vartotojas, admin);
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
+        return configuration.getAuthenticationManager();
     }
+
+//    @Bean
+//    public UserDetailsService userDetailsService(){
+//
+//        UserDetails vartotojas = User.builder()
+//                .username("vartotojas")
+//                .password(passwordEncoder().encode( "vartotojas"))
+//                .roles("USER")
+//                .build();
+//
+//        UserDetails admin = User.builder()
+//                .username("admin")
+//                .password(passwordEncoder().encode( "admin"))
+//                .roles("ADMIN")
+//                .build();
+//
+//        return new InMemoryUserDetailsManager(vartotojas, admin);
+//    }
 }
