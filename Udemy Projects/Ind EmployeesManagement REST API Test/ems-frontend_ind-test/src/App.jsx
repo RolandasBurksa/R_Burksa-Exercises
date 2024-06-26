@@ -7,6 +7,7 @@ import EmployeeComponent from "./components/EmployeeComponent";
 import ListDepartmentComponent from "./components/ListDepartmentComponent";
 import DepartmentComponent from "./components/DepartmentComponent";
 import RegisterComponent from "./components/RegisterComponent";
+import LoginComponent from "./components/LoginComponent";
 
 function App() {
   return (
@@ -42,6 +43,8 @@ function App() {
           ></Route>
           {/* // http://localhost:3000/register */}
           <Route path="/register" element={<RegisterComponent />}></Route>
+          {/* // http://localhost:3000/login */}
+          <Route path="/login" element={<LoginComponent />}></Route>
         </Routes>
         <FooterComponent />
       </BrowserRouter>

@@ -43,6 +43,7 @@ public class SpringSecurityConfig {
                     authorize.requestMatchers("/api/auth/**").permitAll();
 //                    authorize.requestMatchers(HttpMethod.GET, "/api/**").permitAll();
 //                    authorize.requestMatchers("/h2-console/**").permitAll();
+                    authorize.requestMatchers(HttpMethod.OPTIONS, "/**").permitAll();    // Handle preflight request
                     authorize.anyRequest().authenticated();
                 }).httpBasic(Customizer.withDefaults())
                 .headers(headers -> headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin)); // Allow frames from same origin (needed for H2 console)
