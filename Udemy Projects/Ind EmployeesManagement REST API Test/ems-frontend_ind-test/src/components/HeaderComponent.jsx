@@ -28,6 +28,18 @@ const HeaderComponent = () => {
               </li>
             </ul>
           </div>
+
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <NavLink
+                to="/register"
+                className="nav-link"
+                style={{ paddingRight: "20px" }}
+              >
+                Register
+              </NavLink>
+            </li>
+          </ul>
         </nav>
       </header>
     </div>
