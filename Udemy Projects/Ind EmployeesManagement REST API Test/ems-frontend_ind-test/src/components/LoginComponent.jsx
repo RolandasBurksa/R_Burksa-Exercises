@@ -1,5 +1,9 @@
 import { useState } from "react";
-import { loginAPICall, storeToken } from "../services/AuthService";
+import {
+  loginAPICall,
+  saveLoggedInUser,
+  storeToken,
+} from "../services/AuthService";
 import { useNavigate } from "react-router-dom";
 
 const LoginComponent = () => {
@@ -7,13 +11,13 @@ const LoginComponent = () => {
   const [password, setPassword] = useState("");
   const navigator = useNavigate();
 
-  function handleLoginForm(e) {
+  async function handleLoginForm(e) {
     e.preventDefault();
 
     // const loginObj = { username, password };
     // console.log(loginObj);
 
-    loginAPICall(username, password)
+    await loginAPICall(username, password)
       .then((response) => {
         console.log(response.data);
 
@@ -21,7 +25,11 @@ const LoginComponent = () => {
 
         storeToken(token);
 
+        saveLoggedInUser(username);
+
         navigator("/employees");
+
+        window.location.reload(false);
       })
       .catch((error) => {
         console.error(error);

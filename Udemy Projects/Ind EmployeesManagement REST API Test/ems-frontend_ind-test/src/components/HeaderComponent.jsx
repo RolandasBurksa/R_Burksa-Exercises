@@ -1,6 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+import { isUserLoggedIn, logout } from "../services/AuthService";
 
 const HeaderComponent = () => {
+  const isAuth = isUserLoggedIn();
+
+  const navigator = useNavigate();
+
+  function handleLogout() {
+    logout();
+    navigator("/login");
+  }
+
   return (
     <div>
       <header>
@@ -15,22 +25,49 @@ const HeaderComponent = () => {
 
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item">
+              {isAuth && (
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/employees">
+                    Employees
+                  </NavLink>
+                </li>
+              )}
+
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/employees">
                   Employees
                 </NavLink>
-              </li>
+              </li> */}
 
-              <li className="nav-item">
+              {isAuth && (
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/departments">
+                    Departments
+                  </NavLink>
+                </li>
+              )}
+
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/departments">
                   Departments
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           <ul className="navbar-nav">
-            <li className="nav-item">
+            {!isAuth && (
+              <li className="nav-item">
+                <NavLink
+                  to="/register"
+                  className="nav-link"
+                  style={{ paddingRight: "20px" }}
+                >
+                  Register
+                </NavLink>
+              </li>
+            )}
+            {/* <li className="nav-item">
               <NavLink
                 to="/register"
                 className="nav-link"
@@ -38,8 +75,20 @@ const HeaderComponent = () => {
               >
                 Register
               </NavLink>
-            </li>
-            <li className="nav-item">
+            </li> */}
+
+            {!isAuth && (
+              <li className="nav-item">
+                <NavLink
+                  to="/login"
+                  className="nav-link"
+                  style={{ paddingRight: "20px" }}
+                >
+                  Login
+                </NavLink>
+              </li>
+            )}
+            {/* <li className="nav-item">
               <NavLink
                 to="/login"
                 className="nav-link"
@@ -47,7 +96,20 @@ const HeaderComponent = () => {
               >
                 Login
               </NavLink>
-            </li>
+            </li> */}
+
+            {isAuth && (
+              <li className="nav-item">
+                <NavLink
+                  to="/login"
+                  className="nav-link"
+                  style={{ paddingRight: "20px" }}
+                  onClick={handleLogout}
+                >
+                  Logout
+                </NavLink>
+              </li>
+            )}
           </ul>
         </nav>
       </header>

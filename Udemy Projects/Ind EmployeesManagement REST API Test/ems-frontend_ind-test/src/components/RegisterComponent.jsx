@@ -34,7 +34,7 @@ const RegisterComponent = () => {
             </div>
 
             <div className="card-body">
-              <form>
+              <form onSubmit={handleRegistrationForm}>
                 <div className="row mb-3">
                   <label className="col-form-label col-md-2">Name</label>
                   <div className="col-md-10">
@@ -94,7 +94,8 @@ const RegisterComponent = () => {
                 <div className="form-group mb-3">
                   <button
                     className="btn btn-primary"
-                    onClick={(e) => handleRegistrationForm(e)}
+                    // onClick={(e) => handleRegistrationForm(e)}
+                    type="submit"
                   >
                     Submit
                   </button>
