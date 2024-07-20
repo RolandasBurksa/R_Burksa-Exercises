@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/untitled/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/BiNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/BiNumberGcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/BiNumberGcdRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/FactorialCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/NumberOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/NumberOfDigitsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/NumberUtilsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/NumberUtilsTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/NumberUtilsTwoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/ReversedNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_15/ReversedNumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/BiNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/BiNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/BiNumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/BiNumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/MyChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/MyChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/MyCharRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/MyCharRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/SimpleInterestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/SimpleInterestCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/SimpleInterestCalculatorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_11/SimpleInterestCalculatorRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +64,10 @@
   &quot;keyToString&quot;: {
     &quot;Application.DoWhileRunner.executor&quot;: &quot;Run&quot;,
     &quot;Application.MyNumberRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfDigitsRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberUtilsRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberUtilsTwoRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversedNumberRunner.executor&quot;: &quot;Run&quot;,
     &quot;Application.WhileNumberPlayerRunner.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -67,7 +84,7 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DoWhileRunner">
+  <component name="RunManager" selected="Application.ReversedNumberRunner">
     <configuration name="DoWhileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_14.DoWhileRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -81,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyNumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_14.MyNumberRunner" />
+    <configuration name="NumberOfDigitsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_15.NumberOfDigitsRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_14.*" />
+          <option name="PATTERN" value="section_15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +111,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileNumberPlayerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_14.WhileNumberPlayerRunner" />
+    <configuration name="NumberUtilsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_15.NumberUtilsRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_14.*" />
+          <option name="PATTERN" value="section_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberUtilsTwoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_15.NumberUtilsTwoRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReversedNumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_15.ReversedNumberRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,9 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReversedNumberRunner" />
+        <item itemvalue="Application.NumberUtilsTwoRunner" />
+        <item itemvalue="Application.NumberOfDigitsRunner" />
+        <item itemvalue="Application.NumberUtilsRunner" />
         <item itemvalue="Application.DoWhileRunner" />
-        <item itemvalue="Application.WhileNumberPlayerRunner" />
-        <item itemvalue="Application.MyNumberRunner" />
       </list>
     </recent_temporary>
   </component>

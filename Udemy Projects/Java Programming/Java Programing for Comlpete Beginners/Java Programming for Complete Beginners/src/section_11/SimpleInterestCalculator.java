@@ -1,4 +1,4 @@
-package lt.udemy.rolandas.section11;
+package section_11;
 
 import java.math.BigDecimal;
 
