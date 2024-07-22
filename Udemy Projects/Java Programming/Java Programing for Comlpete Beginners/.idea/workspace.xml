@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="" />
+    <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_17/StringMagic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_17/StringMagic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_17/StringMagic2Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_17/StringMagic3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_17/StringMagic3Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_17/StringMagicRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +56,9 @@
     "Application.NumberUtilsRunner.executor": "Run",
     "Application.NumberUtilsTwoRunner.executor": "Run",
     "Application.ReversedNumberRunner.executor": "Run",
+    "Application.StringMagic2Runner.executor": "Run",
+    "Application.StringMagic3Runner.executor": "Run",
+    "Application.StringMagicRunner.executor": "Run",
     "Application.TextSeparated.executor": "Run",
     "Application.WhileNumberPlayerRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,52 +76,52 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextSeparated">
-    <configuration name="NumberOfDigitsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_15.NumberOfDigitsRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberUtilsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_15.NumberUtilsRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberUtilsTwoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_15.NumberUtilsTwoRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringMagic3Runner">
     <configuration name="ReversedNumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_15.ReversedNumberRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="section_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMagic2Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_17.StringMagic2Runner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMagic3Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_17.StringMagic3Runner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMagicRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_17.StringMagicRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringMagic3Runner" />
+        <item itemvalue="Application.StringMagic2Runner" />
+        <item itemvalue="Application.StringMagicRunner" />
         <item itemvalue="Application.TextSeparated" />
         <item itemvalue="Application.ReversedNumberRunner" />
-        <item itemvalue="Application.NumberUtilsTwoRunner" />
-        <item itemvalue="Application.NumberOfDigitsRunner" />
-        <item itemvalue="Application.NumberUtilsRunner" />
       </list>
     </recent_temporary>
   </component>
