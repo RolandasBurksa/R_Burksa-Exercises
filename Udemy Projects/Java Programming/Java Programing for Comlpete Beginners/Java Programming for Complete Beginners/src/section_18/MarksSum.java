@@ -17,5 +17,9 @@ public class MarksSum {
             for (int i = 0; i < marks.length; i++) {
                 System.out.print(marks[i] + ", ");
             }
+
+            for (int mark:marks) {
+                System.out.println(mark);
+            }
     }
 }
