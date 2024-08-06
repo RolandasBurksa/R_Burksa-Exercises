@@ -47,4 +47,16 @@ public class Student {
 //         return new BigDecimal(sum/number);
          return new BigDecimal(sum).divide(new BigDecimal(number), 3, RoundingMode.UP);
     }
+
+    public void addNewMark(int mark) {
+
+    }
+
+    public String toString() {
+        return name + Arrays.toString(marks);
+    }
+
+    public void removeMarkAtIndex(int index) {
+
+    }
 }

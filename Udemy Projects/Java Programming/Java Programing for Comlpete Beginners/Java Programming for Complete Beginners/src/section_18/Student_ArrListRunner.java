@@ -24,5 +24,11 @@ public class Student_ArrListRunner {
         BigDecimal average = student.getAverage();
         System.out.println("The average of marks: " + average);
 
+        student.addNewMark(35);
+
+        System.out.println(student);
+
+        student.removeMarkAtIndex(1);
+
     }
 }

@@ -14,4 +14,7 @@ public class Student_ArrList {
             this.marks.add(mark);
         }
     }
+    public void addNewMark(int mark) {
+        marks.add(mark);
+    }
 }
