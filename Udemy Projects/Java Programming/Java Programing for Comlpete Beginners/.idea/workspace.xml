@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_19/ArrayMagicSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_19/ArrayMagicSecond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ArrayMagicRunner" />
+        <item itemvalue="Application.Student_ArrRunner" />
         <item itemvalue="Application.Student_ArrListRunner" />
         <item itemvalue="Application.StudentRunner" />
         <item itemvalue="Application.MarksSum" />
-        <item itemvalue="Application.Student_ArrRunner" />
       </list>
     </recent_temporary>
   </component>
