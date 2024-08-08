@@ -25,11 +25,11 @@ public class ArrayMagicSecond {
             } else if (number > numberSecond && number != numberFirst) {
                 numberSecond = number;
             }
-            return numberSecond;
         }
-        return -1;
-
+        if (numberSecond == Integer.MIN_VALUE) {
+            return -1;
+        }
+        return numberSecond;
     }
-
 }
 
