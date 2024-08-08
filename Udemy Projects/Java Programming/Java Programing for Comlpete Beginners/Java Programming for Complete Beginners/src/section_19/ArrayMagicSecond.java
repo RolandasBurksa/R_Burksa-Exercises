@@ -12,7 +12,7 @@ public class ArrayMagicSecond {
     public int findSecondLargestElement(int[] array) {
 
         if (array.length < 2) {
-            return -1;
+            throw new IllegalArgumentException("Array must have at least two elements to find the second largest.");
         }
 
         int numberFirst = Integer.MIN_VALUE;
