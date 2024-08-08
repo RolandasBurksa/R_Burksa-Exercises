@@ -11,7 +11,7 @@ public class ArrayMagicSecond {
 
     public int findSecondLargestElement(int[] array) {
 
-        if (array.length < 2 || array.length == 0) {
+        if (array.length < 2) {
             return -1;
         }
 
@@ -22,8 +22,8 @@ public class ArrayMagicSecond {
             if (number > numberFirst) {
                 numberSecond = numberFirst;
                 numberFirst = number;
-            } else if (number > numberSecond) {
-                number = numberSecond;
+            } else if (number > numberSecond && number != numberFirst) {
+                numberSecond = number;
             }
             return numberSecond;
         }
