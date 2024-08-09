@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_19/ArrayMagicSecondRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_19/BiArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_19/BiArrayRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_19/ArrayMagicSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_19/ArrayMagicSecond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
   "keyToString": {
     "Application.ArrayMagicRunner.executor": "Run",
     "Application.ArrayMagicSecondRunner.executor": "Run",
+    "Application.BiArrayRunner.executor": "Run",
     "Application.Blocks_18.executor": "Debug",
     "Application.DoWhileRunner.executor": "Run",
     "Application.MarksSum.executor": "Run",
@@ -84,9 +85,9 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayMagicSecondRunner">
-    <configuration name="ArrayMagicRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_19.ArrayMagicRunner" />
+  <component name="RunManager" selected="Application.BiArrayRunner">
+    <configuration name="ArrayMagicSecondRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_19.ArrayMagicSecondRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMagicSecondRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_19.ArrayMagicSecondRunner" />
+    <configuration name="BiArrayRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_19.BiArrayRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayMagicSecondRunner" />
-        <item itemvalue="Application.ArrayMagicRunner" />
+        <item itemvalue="Application.BiArrayRunner" />
         <item itemvalue="Application.Student_ArrRunner" />
         <item itemvalue="Application.Student_ArrListRunner" />
         <item itemvalue="Application.StudentRunner" />
+        <item itemvalue="Application.ArrayMagicSecondRunner" />
       </list>
     </recent_temporary>
   </component>
