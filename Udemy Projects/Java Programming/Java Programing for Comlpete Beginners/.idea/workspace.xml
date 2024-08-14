@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/EmployeeOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/EmployeeOneRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/EmployeeWithConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/EmployeeWithConstructorRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/PersonOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/PersonWithConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/StudentOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/StudentWithoutInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/AbstractRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/ComplexAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/DummyAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/GameRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/GamingConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/MarioGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/RealAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/Recipe1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/RecipeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_20/RecipeWithMicrowave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,6 +67,7 @@
     "Application.EmployeeOneRunner.executor": "Run",
     "Application.EmployeeWithConstructorRunner.executor": "Run",
     "Application.FanRunner.executor": "Run",
+    "Application.GameRunner.executor": "Run",
     "Application.MarksSum.executor": "Run",
     "Application.MultiFor.executor": "Debug",
     "Application.MyNumberRunner.executor": "Run",
@@ -73,6 +75,8 @@
     "Application.NumberUtilsRunner.executor": "Run",
     "Application.NumberUtilsTwoRunner.executor": "Run",
     "Application.Output.executor": "Debug",
+    "Application.Project.executor": "Run",
+    "Application.RecipeRunner.executor": "Run",
     "Application.RectangleRunner.executor": "Run",
     "Application.ReversedNumberRunner.executor": "Run",
     "Application.SimpleStartupTestDrive.executor": "Run",
@@ -104,33 +108,7 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeWithConstructorRunner">
-    <configuration name="BookRunner_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_20.BookRunner_20" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_20.CustomerRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Project">
     <configuration name="EmployeeOneRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_20.EmployeeOneRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -157,8 +135,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_20.StudentRunner" />
+    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_20.GameRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_20.Project" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_20.RecipeRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project" />
+        <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.RecipeRunner" />
         <item itemvalue="Application.EmployeeWithConstructorRunner" />
         <item itemvalue="Application.EmployeeOneRunner" />
-        <item itemvalue="Application.StudentRunner" />
-        <item itemvalue="Application.BookRunner_20" />
-        <item itemvalue="Application.CustomerRunner" />
       </list>
     </recent_temporary>
   </component>
