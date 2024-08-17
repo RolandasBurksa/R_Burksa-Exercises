@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/StudentsCollectionRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +80,7 @@
     "Application.StudentRunner.executor": "Run",
     "Application.Student_ArrListRunner.executor": "Run",
     "Application.Student_ArrRunner.executor": "Run",
+    "Application.StudentsCollectionRunner.executor": "Run",
     "Application.TextSeparated.executor": "Run",
     "Application.Weekdays.executor": "Run",
     "Application.Weekdays_02.executor": "Run",
@@ -100,7 +103,7 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalSecondRunner">
+  <component name="RunManager" selected="Application.StudentsCollectionRunner">
     <configuration name="AnimalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_20.AnimalRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -153,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_20.RecipeRunner" />
+    <configuration name="StudentsCollectionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_22.StudentsCollectionRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_20.*" />
+          <option name="PATTERN" value="section_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentsCollectionRunner" />
         <item itemvalue="Application.AnimalSecondRunner" />
         <item itemvalue="Application.GameRunner" />
         <item itemvalue="Application.AnimalRunner" />
         <item itemvalue="Application.FlyableRunner" />
-        <item itemvalue="Application.RecipeRunner" />
       </list>
     </recent_temporary>
   </component>
