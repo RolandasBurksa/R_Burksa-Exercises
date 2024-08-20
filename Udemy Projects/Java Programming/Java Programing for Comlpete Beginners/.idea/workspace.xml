@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/QueueRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/SetRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/HelloDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/MapRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/ShowData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/ShowDataTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_22/ShowProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,58 +49,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalRunner.executor": "Run",
-    "Application.AnimalSecondRunner.executor": "Run",
-    "Application.ArrayMagicRunner.executor": "Run",
-    "Application.ArrayMagicSecondRunner.executor": "Run",
-    "Application.BiArrayRunner.executor": "Run",
-    "Application.Blocks_18.executor": "Debug",
-    "Application.BookRunner.executor": "Run",
-    "Application.BookRunner_20.executor": "Run",
-    "Application.CustomerRunner.executor": "Run",
-    "Application.DoWhileRunner.executor": "Run",
-    "Application.EmployeeOneRunner.executor": "Run",
-    "Application.EmployeeWithConstructorRunner.executor": "Run",
-    "Application.FanRunner.executor": "Run",
-    "Application.FlyableRunner.executor": "Run",
-    "Application.GameRunner.executor": "Run",
-    "Application.MarksSum.executor": "Run",
-    "Application.MultiFor.executor": "Debug",
-    "Application.MyNumberRunner.executor": "Run",
-    "Application.NumberOfDigitsRunner.executor": "Run",
-    "Application.NumberUtilsRunner.executor": "Run",
-    "Application.NumberUtilsTwoRunner.executor": "Run",
-    "Application.Output.executor": "Debug",
-    "Application.Project.executor": "Run",
-    "Application.QueueRunner.executor": "Run",
-    "Application.RecipeRunner.executor": "Run",
-    "Application.RectangleRunner.executor": "Run",
-    "Application.ReversedNumberRunner.executor": "Run",
-    "Application.SetRunner.executor": "Run",
-    "Application.SimpleStartupTestDrive.executor": "Run",
-    "Application.StringMagic2Runner.executor": "Run",
-    "Application.StringMagic3Runner.executor": "Run",
-    "Application.StringMagicRunner.executor": "Run",
-    "Application.StudentRunner.executor": "Run",
-    "Application.Student_ArrListRunner.executor": "Run",
-    "Application.Student_ArrRunner.executor": "Run",
-    "Application.StudentsCollectionRunner.executor": "Run",
-    "Application.TextSeparated.executor": "Run",
-    "Application.Weekdays.executor": "Run",
-    "Application.Weekdays_02.executor": "Run",
-    "Application.WhileNumberPlayerRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rolandasb/Documents/GitHub/R_Burksa-Exercises/Udemy Projects/Java Programming/Java Programing for Comlpete Beginners",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimalRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalSecondRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMagicRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMagicSecondRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BiArrayRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Blocks_18.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BookRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookRunner_20.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomerRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoWhileRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeOneRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeWithConstructorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FanRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlyableRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloDate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarksSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiFor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MyNumberRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfDigitsRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberUtilsRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberUtilsTwoRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Output.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Project.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecipeRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversedNumberRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowData.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowDataTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleStartupTestDrive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMagic2Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMagic3Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMagicRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student_ArrListRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student_ArrRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentsCollectionRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextSeparated.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Weekdays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Weekdays_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileNumberPlayerRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rolandasb/Documents/GitHub/R_Burksa-Exercises/Udemy Projects/Java Programming/Java Programing for Comlpete Beginners&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="section_20" />
@@ -105,35 +114,9 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueRunner">
-    <configuration name="AnimalSecondRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_20.AnimalSecondRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_20.GameRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_22.QueueRunner" />
+  <component name="RunManager" selected="Application.ShowDataTwo">
+    <configuration name="HelloDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_22.HelloDate" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_22.SetRunner" />
+    <configuration name="MapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_22.MapRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +141,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentsCollectionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_22.StudentsCollectionRunner" />
+    <configuration name="ShowData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_22.ShowData" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowDataTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_22.ShowDataTwo" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_22.ShowProperties" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueRunner" />
-        <item itemvalue="Application.SetRunner" />
-        <item itemvalue="Application.StudentsCollectionRunner" />
-        <item itemvalue="Application.AnimalSecondRunner" />
-        <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.ShowDataTwo" />
+        <item itemvalue="Application.ShowData" />
+        <item itemvalue="Application.ShowProperties" />
+        <item itemvalue="Application.HelloDate" />
+        <item itemvalue="Application.MapRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -191,5 +200,16 @@
       <updated>1720532261369</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
