@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/FunctionalProgrammingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/FPNumberRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "Application.DoWhileRunner.executor": "Run",
     "Application.EmployeeOneRunner.executor": "Run",
     "Application.EmployeeWithConstructorRunner.executor": "Run",
+    "Application.FPNumberRunner.executor": "Run",
     "Application.FanRunner.executor": "Run",
     "Application.FlyableRunner.executor": "Run",
     "Application.FunctionalProgrammingRunner.executor": "Run",
@@ -111,9 +112,9 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalProgrammingRunner">
-    <configuration name="FunctionalProgrammingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.FunctionalProgrammingRunner" />
+  <component name="RunManager" selected="Application.FPNumberRunner">
+    <configuration name="FPNumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.FPNumberRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_22.HelloDate" />
+    <configuration name="FunctionalProgrammingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.FunctionalProgrammingRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_22.*" />
+          <option name="PATTERN" value="section_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FPNumberRunner" />
         <item itemvalue="Application.FunctionalProgrammingRunner" />
         <item itemvalue="Application.ShowDataTwo" />
         <item itemvalue="Application.ShowData" />
         <item itemvalue="Application.ShowProperties" />
-        <item itemvalue="Application.HelloDate" />
       </list>
     </recent_temporary>
   </component>
