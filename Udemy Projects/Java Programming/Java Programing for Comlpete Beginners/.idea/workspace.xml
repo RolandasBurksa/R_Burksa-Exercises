@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/FPNumberRunnerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/FuncProgRunnerOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/LambdaRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/ListSortingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/MethodReferencesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_25/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +65,18 @@
     "Application.EmployeeOneRunner.executor": "Run",
     "Application.EmployeeWithConstructorRunner.executor": "Run",
     "Application.FPNumberRunner.executor": "Run",
+    "Application.FPNumberRunnerTwo.executor": "Run",
     "Application.FanRunner.executor": "Run",
     "Application.FlyableRunner.executor": "Run",
+    "Application.FuncProgRunnerOne.executor": "Run",
     "Application.FunctionalProgrammingRunner.executor": "Run",
     "Application.GameRunner.executor": "Run",
     "Application.HelloDate.executor": "Run",
+    "Application.LambdaRunner.executor": "Run",
+    "Application.ListSortingRunner.executor": "Run",
     "Application.MapRunner.executor": "Run",
     "Application.MarksSum.executor": "Run",
+    "Application.MethodReferencesRunner.executor": "Run",
     "Application.MultiFor.executor": "Debug",
     "Application.MyNumberRunner.executor": "Run",
     "Application.NumberOfDigitsRunner.executor": "Run",
@@ -113,9 +123,9 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dog">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.Dog" />
+  <component name="RunManager" selected="Application.MethodReferencesRunner">
+    <configuration name="FPNumberRunnerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.FPNumberRunnerTwo" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FPNumberRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.FPNumberRunner" />
+    <configuration name="FuncProgRunnerOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.FuncProgRunnerOne" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalProgrammingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.FunctionalProgrammingRunner" />
+    <configuration name="LambdaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.LambdaRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -153,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_22.ShowData" />
+    <configuration name="ListSortingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.ListSortingRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_22.*" />
+          <option name="PATTERN" value="section_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowDataTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_22.ShowDataTwo" />
+    <configuration name="MethodReferencesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.MethodReferencesRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_22.*" />
+          <option name="PATTERN" value="section_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.FPNumberRunner" />
-        <item itemvalue="Application.FunctionalProgrammingRunner" />
-        <item itemvalue="Application.ShowDataTwo" />
-        <item itemvalue="Application.ShowData" />
+        <item itemvalue="Application.MethodReferencesRunner" />
+        <item itemvalue="Application.LambdaRunner" />
+        <item itemvalue="Application.FuncProgRunnerOne" />
+        <item itemvalue="Application.FPNumberRunnerTwo" />
+        <item itemvalue="Application.ListSortingRunner" />
       </list>
     </recent_temporary>
   </component>

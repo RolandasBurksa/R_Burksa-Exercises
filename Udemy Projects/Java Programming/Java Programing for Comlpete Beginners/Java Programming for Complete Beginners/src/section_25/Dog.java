@@ -24,7 +24,8 @@ public class Dog {
 
         List<Dog> listOfDogs = List.of(dogOne, dogTwo);
 
-        listOfDogs.stream().forEach(element -> System.out.println(element));
+//        listOfDogs.stream().forEach(element -> System.out.println(element));
+        listOfDogs.stream().forEach(System.out::println);
         System.out.println("***   ___   ***");
     }
 }
