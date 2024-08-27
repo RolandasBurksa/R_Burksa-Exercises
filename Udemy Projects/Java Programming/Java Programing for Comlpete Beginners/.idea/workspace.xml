@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_26/FilterOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_26/FProgramingMagic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_26/WhileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +101,7 @@
     "Application.Weekdays.executor": "Run",
     "Application.Weekdays_02.executor": "Run",
     "Application.WhileNumberPlayerRunner.executor": "Run",
+    "Application.WhileTest.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
@@ -119,9 +121,9 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilterOddNumbers">
-    <configuration name="FPNumberRunnerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.FPNumberRunnerTwo" />
+  <component name="RunManager" selected="Application.WhileTest">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_25.Dog" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -139,19 +141,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="section_26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuncProgRunnerOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.FuncProgRunnerOne" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,13 +174,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_26.WhileTest" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_26.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhileTest" />
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.FilterOddNumbers" />
         <item itemvalue="Application.MethodReferencesRunner" />
         <item itemvalue="Application.LambdaRunner" />
-        <item itemvalue="Application.FuncProgRunnerOne" />
-        <item itemvalue="Application.FPNumberRunnerTwo" />
       </list>
     </recent_temporary>
   </component>
