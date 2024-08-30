@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_26/FProgramingMagicTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_26/ListCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/TreadBasicsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/TreadBasicsRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +98,7 @@
     "Application.Student_ArrRunner.executor": "Run",
     "Application.StudentsCollectionRunner.executor": "Run",
     "Application.TextSeparated.executor": "Run",
+    "Application.TreadBasicsRunner.executor": "Run",
     "Application.Weekdays.executor": "Run",
     "Application.Weekdays_02.executor": "Run",
     "Application.WhileNumberPlayerRunner.executor": "Run",
@@ -122,7 +122,7 @@
       <recent name="section_06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListCharacters">
+  <component name="RunManager" selected="Application.TreadBasicsRunner">
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_25.Dog" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -162,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReferencesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.MethodReferencesRunner" />
+    <configuration name="TreadBasicsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.TreadBasicsRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_25.*" />
+          <option name="PATTERN" value="section_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreadBasicsRunner" />
         <item itemvalue="Application.ListCharacters" />
         <item itemvalue="Application.WhileTest" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.FilterOddNumbers" />
-        <item itemvalue="Application.MethodReferencesRunner" />
       </list>
     </recent_temporary>
   </component>
