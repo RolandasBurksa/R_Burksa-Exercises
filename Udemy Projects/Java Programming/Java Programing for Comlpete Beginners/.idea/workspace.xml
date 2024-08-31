@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/CallableRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/ExecutorServiceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/MultipleAnyCallableRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/MultipleCallableRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/TreadBasicsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/TreadBasicsRunner.java" afterDir="false" />
     </list>
@@ -54,11 +58,13 @@
     "Application.Blocks_18.executor": "Debug",
     "Application.BookRunner.executor": "Run",
     "Application.BookRunner_20.executor": "Run",
+    "Application.CallableRunner.executor": "Run",
     "Application.CustomerRunner.executor": "Run",
     "Application.DoWhileRunner.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.EmployeeOneRunner.executor": "Run",
     "Application.EmployeeWithConstructorRunner.executor": "Run",
+    "Application.ExecutorServiceRunner.executor": "Run",
     "Application.FPNumberRunner.executor": "Run",
     "Application.FPNumberRunnerTwo.executor": "Run",
     "Application.FanRunner.executor": "Run",
@@ -75,6 +81,8 @@
     "Application.MarksSum.executor": "Run",
     "Application.MethodReferencesRunner.executor": "Run",
     "Application.MultiFor.executor": "Debug",
+    "Application.MultipleAnyCallableRunner.executor": "Run",
+    "Application.MultipleCallableRunner.executor": "Run",
     "Application.MyNumberRunner.executor": "Run",
     "Application.NumberOfDigitsRunner.executor": "Run",
     "Application.NumberUtilsRunner.executor": "Run",
@@ -121,14 +129,17 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="section_06" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="section_27" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TreadBasicsRunner">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_25.Dog" />
+  <component name="RunManager" selected="Application.MultipleAnyCallableRunner">
+    <configuration name="CallableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.CallableRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_25.*" />
+          <option name="PATTERN" value="section_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_26.FilterOddNumbers" />
+    <configuration name="ExecutorServiceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.ExecutorServiceRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_26.*" />
+          <option name="PATTERN" value="section_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +160,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_26.ListCharacters" />
+    <configuration name="MultipleAnyCallableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.MultipleAnyCallableRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_26.*" />
+          <option name="PATTERN" value="section_27.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultipleCallableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.MultipleCallableRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,26 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_26.WhileTest" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleAnyCallableRunner" />
+        <item itemvalue="Application.MultipleCallableRunner" />
+        <item itemvalue="Application.CallableRunner" />
+        <item itemvalue="Application.ExecutorServiceRunner" />
         <item itemvalue="Application.TreadBasicsRunner" />
-        <item itemvalue="Application.ListCharacters" />
-        <item itemvalue="Application.WhileTest" />
-        <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.FilterOddNumbers" />
       </list>
     </recent_temporary>
   </component>
