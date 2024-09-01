@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/CallableRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/ExecutorServiceRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/MultipleAnyCallableRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/MultipleCallableRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/CheckedExceptionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/ExceptionHandlingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/ExceptionHandlingRunner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/FinallyRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/IdeTips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/ThrowingExceptionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/TryWithResourcesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/TreadBasicsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_27/TreadBasicsRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +61,26 @@
     "Application.BookRunner.executor": "Run",
     "Application.BookRunner_20.executor": "Run",
     "Application.CallableRunner.executor": "Run",
+    "Application.CheckedExceptionRunner.executor": "Run",
     "Application.CustomerRunner.executor": "Run",
     "Application.DoWhileRunner.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.EmployeeOneRunner.executor": "Run",
     "Application.EmployeeWithConstructorRunner.executor": "Run",
+    "Application.ExceptionHandlingRunner.executor": "Run",
+    "Application.ExceptionHandlingRunner2.executor": "Run",
     "Application.ExecutorServiceRunner.executor": "Run",
     "Application.FPNumberRunner.executor": "Run",
     "Application.FPNumberRunnerTwo.executor": "Run",
     "Application.FanRunner.executor": "Run",
     "Application.FilterOddNumbers.executor": "Run",
+    "Application.FinallyRunner.executor": "Run",
     "Application.FlyableRunner.executor": "Run",
     "Application.FuncProgRunnerOne.executor": "Run",
     "Application.FunctionalProgrammingRunner.executor": "Run",
     "Application.GameRunner.executor": "Run",
     "Application.HelloDate.executor": "Run",
+    "Application.IdeTips.executor": "Run",
     "Application.LambdaRunner.executor": "Run",
     "Application.ListCharacters.executor": "Run",
     "Application.ListSortingRunner.executor": "Run",
@@ -106,6 +113,7 @@
     "Application.Student_ArrRunner.executor": "Run",
     "Application.StudentsCollectionRunner.executor": "Run",
     "Application.TextSeparated.executor": "Run",
+    "Application.ThrowingExceptionRunner.executor": "Run",
     "Application.TreadBasicsRunner.executor": "Run",
     "Application.Weekdays.executor": "Run",
     "Application.Weekdays_02.executor": "Run",
@@ -124,6 +132,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="section_27" />
       <recent name="section_20" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -133,9 +142,9 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleAnyCallableRunner">
-    <configuration name="CallableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.CallableRunner" />
+  <component name="RunManager" selected="Application.IdeTips">
+    <configuration name="CheckedExceptionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.CheckedExceptionRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorServiceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.ExecutorServiceRunner" />
+    <configuration name="ExceptionHandlingRunner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.ExceptionHandlingRunner2" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleAnyCallableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.MultipleAnyCallableRunner" />
+    <configuration name="FinallyRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.FinallyRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -173,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleCallableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.MultipleCallableRunner" />
+    <configuration name="IdeTips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.IdeTips" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -186,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreadBasicsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.TreadBasicsRunner" />
+    <configuration name="ThrowingExceptionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_27.ThrowingExceptionRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -201,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultipleAnyCallableRunner" />
-        <item itemvalue="Application.MultipleCallableRunner" />
-        <item itemvalue="Application.CallableRunner" />
-        <item itemvalue="Application.ExecutorServiceRunner" />
-        <item itemvalue="Application.TreadBasicsRunner" />
+        <item itemvalue="Application.IdeTips" />
+        <item itemvalue="Application.ThrowingExceptionRunner" />
+        <item itemvalue="Application.CheckedExceptionRunner" />
+        <item itemvalue="Application.FinallyRunner" />
+        <item itemvalue="Application.ExceptionHandlingRunner2" />
       </list>
     </recent_temporary>
   </component>
