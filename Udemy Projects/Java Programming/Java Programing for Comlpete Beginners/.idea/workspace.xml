@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_29/DirectoryScanRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_29/FileWriteRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_29/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_29/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/BiCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/BiCounterWithAtomicInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/BiCounterWithLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/ConcurrencyRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/ConcurrentMapRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/CopyOnWriteArraylistRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/ForEachString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +63,9 @@
     "Application.BookRunner_20.executor": "Run",
     "Application.CallableRunner.executor": "Run",
     "Application.CheckedExceptionRunner.executor": "Run",
+    "Application.ConcurrencyRunner.executor": "Run",
+    "Application.ConcurrentMapRunner.executor": "Run",
+    "Application.CopyOnWriteArraylistRunner.executor": "Run",
     "Application.CustomerRunner.executor": "Run",
     "Application.DirectoryScanRunner.executor": "Run",
     "Application.DoWhileRunner.executor": "Run",
@@ -75,6 +82,7 @@
     "Application.FilterOddNumbers.executor": "Run",
     "Application.FinallyRunner.executor": "Run",
     "Application.FlyableRunner.executor": "Run",
+    "Application.ForEachString.executor": "Run",
     "Application.FuncProgRunnerOne.executor": "Run",
     "Application.FunctionalProgrammingRunner.executor": "Run",
     "Application.GameRunner.executor": "Run",
@@ -138,16 +146,17 @@
       <recent name="section_06" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="section_30" />
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileWriteRunner">
-    <configuration name="CheckedExceptionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.CheckedExceptionRunner" />
+  <component name="RunManager" selected="Application.CopyOnWriteArraylistRunner">
+    <configuration name="ConcurrencyRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_30.ConcurrencyRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_27.*" />
+          <option name="PATTERN" value="section_30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +164,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectoryScanRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_29.DirectoryScanRunner" />
+    <configuration name="ConcurrentMapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_30.ConcurrentMapRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_29.*" />
+          <option name="PATTERN" value="section_30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyOnWriteArraylistRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_30.CopyOnWriteArraylistRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,25 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdeTips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.IdeTips" />
+    <configuration name="ForEachString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_30.ForEachString" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_27.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThrowingExceptionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_27.ThrowingExceptionRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_27.*" />
+          <option name="PATTERN" value="section_30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyOnWriteArraylistRunner" />
+        <item itemvalue="Application.ConcurrentMapRunner" />
+        <item itemvalue="Application.ForEachString" />
+        <item itemvalue="Application.ConcurrencyRunner" />
         <item itemvalue="Application.FileWriteRunner" />
-        <item itemvalue="Application.DirectoryScanRunner" />
-        <item itemvalue="Application.IdeTips" />
-        <item itemvalue="Application.ThrowingExceptionRunner" />
-        <item itemvalue="Application.CheckedExceptionRunner" />
       </list>
     </recent_temporary>
   </component>
