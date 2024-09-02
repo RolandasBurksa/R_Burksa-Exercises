@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/BiCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/BiCounterWithAtomicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/BiCounterWithLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/ConcurrencyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/ConcurrentMapRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/CopyOnWriteArraylistRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_30/ForEachString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/BlacksRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/ClassAccessModifiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/EqualsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/ExampleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/FinalNonAccessModifierRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/ImportsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/MethodAccessRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/StaticModifierRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
     "Application.Dog.executor": "Run",
     "Application.EmployeeOneRunner.executor": "Run",
     "Application.EmployeeWithConstructorRunner.executor": "Run",
+    "Application.EqualsRunner.executor": "Run",
     "Application.ExceptionHandlingRunner.executor": "Run",
     "Application.ExceptionHandlingRunner2.executor": "Run",
     "Application.ExecutorServiceRunner.executor": "Run",
@@ -88,6 +89,7 @@
     "Application.GameRunner.executor": "Run",
     "Application.HelloDate.executor": "Run",
     "Application.IdeTips.executor": "Run",
+    "Application.ImportsRunner.executor": "Run",
     "Application.LambdaRunner.executor": "Run",
     "Application.ListCharacters.executor": "Run",
     "Application.ListSortingRunner.executor": "Run",
@@ -112,6 +114,7 @@
     "Application.ShowDataTwo.executor": "Run",
     "Application.ShowProperties.executor": "Run",
     "Application.SimpleStartupTestDrive.executor": "Run",
+    "Application.StaticModifierRunner.executor": "Run",
     "Application.StringMagic2Runner.executor": "Run",
     "Application.StringMagic3Runner.executor": "Run",
     "Application.StringMagicRunner.executor": "Run",
@@ -150,20 +153,7 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyOnWriteArraylistRunner">
-    <configuration name="ConcurrencyRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_30.ConcurrencyRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StaticModifierRunner">
     <configuration name="ConcurrentMapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_30.ConcurrentMapRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -190,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_29.FileWriteRunner" />
+    <configuration name="EqualsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.EqualsRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_29.*" />
+          <option name="PATTERN" value="section_31_Java_Tips.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +193,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEachString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_30.ForEachString" />
+    <configuration name="ImportsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.ImportsRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_30.*" />
+          <option name="PATTERN" value="section_31_Java_Tips.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticModifierRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.StaticModifierRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_31_Java_Tips.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticModifierRunner" />
+        <item itemvalue="Application.EqualsRunner" />
+        <item itemvalue="Application.ImportsRunner" />
         <item itemvalue="Application.CopyOnWriteArraylistRunner" />
         <item itemvalue="Application.ConcurrentMapRunner" />
-        <item itemvalue="Application.ForEachString" />
-        <item itemvalue="Application.ConcurrencyRunner" />
-        <item itemvalue="Application.FileWriteRunner" />
       </list>
     </recent_temporary>
   </component>
