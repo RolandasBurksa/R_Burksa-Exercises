@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/DogRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/ExampleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/Leaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +86,7 @@
     "Application.IdeTips.executor": "Run",
     "Application.ImportsRunner.executor": "Run",
     "Application.LambdaRunner.executor": "Run",
+    "Application.Leaf.executor": "Run",
     "Application.ListCharacters.executor": "Run",
     "Application.ListSortingRunner.executor": "Run",
     "Application.MapRunner.executor": "Run",
@@ -150,7 +150,7 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DogRunner">
+  <component name="RunManager" selected="Application.Leaf">
     <configuration name="DogRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.DogRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -190,8 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImportsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.ImportsRunner" />
+    <configuration name="Leaf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.Leaf" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -218,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leaf" />
         <item itemvalue="Application.DogRunner" />
         <item itemvalue="Application.ExampleRunner" />
         <item itemvalue="Application.StaticModifierRunner" />
         <item itemvalue="Application.EqualsRunner" />
-        <item itemvalue="Application.ImportsRunner" />
       </list>
     </recent_temporary>
   </component>
