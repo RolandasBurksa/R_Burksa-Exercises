@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/AnonymousClassRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/BlocksRunnerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/NestedClassRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/StaticModifierRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/StaticModifierRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +51,11 @@
   "keyToString": {
     "Application.AnimalRunner.executor": "Run",
     "Application.AnimalSecondRunner.executor": "Run",
+    "Application.AnonymousClassRunner.executor": "Run",
     "Application.ArrayMagicRunner.executor": "Run",
     "Application.ArrayMagicSecondRunner.executor": "Run",
     "Application.BiArrayRunner.executor": "Run",
+    "Application.BlocksRunnerTwo.executor": "Run",
     "Application.Blocks_18.executor": "Debug",
     "Application.BookRunner.executor": "Run",
     "Application.BookRunner_20.executor": "Run",
@@ -150,9 +155,9 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leaf">
-    <configuration name="DogRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.DogRunner" />
+  <component name="RunManager" selected="Application.AnonymousClassRunner">
+    <configuration name="AnonymousClassRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.AnonymousClassRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +169,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.EqualsRunner" />
+    <configuration name="BlocksRunnerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.BlocksRunnerTwo" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_31_Java_Tips.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DogRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.DogRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -203,26 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticModifierRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.StaticModifierRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_31_Java_Tips.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousClassRunner" />
+        <item itemvalue="Application.BlocksRunnerTwo" />
         <item itemvalue="Application.Leaf" />
         <item itemvalue="Application.DogRunner" />
         <item itemvalue="Application.ExampleRunner" />
-        <item itemvalue="Application.StaticModifierRunner" />
-        <item itemvalue="Application.EqualsRunner" />
       </list>
     </recent_temporary>
   </component>

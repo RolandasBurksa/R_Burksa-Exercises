@@ -2,9 +2,10 @@ package section_31_Java_Tips;
 
 class Player {
     private String name;
-    private static int count;
+    private static int count = 0;
 
     public Player(String name) {
+        super();
         this.name = name;
         count++;
     }
@@ -16,14 +17,14 @@ class Player {
 
 public class StaticModifierRunner {
 
-    public static void main(String[] args) {
-        Player player1 = new Player("Ronaldo");
+    public static <PlayerRunnerTwo> void main(String[] args) {
+//        PlayerRunnerTwo player1 = new PlayerRunnerTwo("Ronaldo");
 
-        System.out.println(Player.getCount());
+//        System.out.println(PlayerRunnerTwo.getCount());
 
-        Player player2 = new Player("Federer");
+//        PlayerRunnerTwo player2 = new PlayerRunnerTwo("Federer");
 //        System.out.println(player1.getCount());
-        System.out.println(Player.getCount());
+//        System.out.println(PlayerRunnerTwo.getCount());
 
     }
 }
