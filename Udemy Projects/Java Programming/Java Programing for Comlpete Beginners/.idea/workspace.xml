@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/AnonymousClassRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/BlocksRunnerTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/NestedClassRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/EnumRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/StaticModifierRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/StaticModifierRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +68,7 @@
     "Application.DogRunner.executor": "Run",
     "Application.EmployeeOneRunner.executor": "Run",
     "Application.EmployeeWithConstructorRunner.executor": "Run",
+    "Application.EnumRunner.executor": "Run",
     "Application.EqualsRunner.executor": "Run",
     "Application.ExampleRunner.executor": "Run",
     "Application.ExceptionHandlingRunner.executor": "Run",
@@ -155,7 +153,7 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnonymousClassRunner">
+  <component name="RunManager" selected="Application.EnumRunner">
     <configuration name="AnonymousClassRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.AnonymousClassRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -195,8 +193,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.ExampleRunner" />
+    <configuration name="EnumRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.EnumRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -223,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumRunner" />
         <item itemvalue="Application.AnonymousClassRunner" />
         <item itemvalue="Application.BlocksRunnerTwo" />
         <item itemvalue="Application.Leaf" />
         <item itemvalue="Application.DogRunner" />
-        <item itemvalue="Application.ExampleRunner" />
       </list>
     </recent_temporary>
   </component>
