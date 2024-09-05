@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/ArraysOfPrimitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/MoneyTypeRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +96,7 @@
     "Application.MapRunner.executor": "Run",
     "Application.MarksSum.executor": "Run",
     "Application.MethodReferencesRunner.executor": "Run",
+    "Application.MoneyTypeRunner.executor": "Run",
     "Application.MultiFor.executor": "Debug",
     "Application.MultipleAnyCallableRunner.executor": "Run",
     "Application.MultipleCallableRunner.executor": "Run",
@@ -154,7 +155,7 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraysOfPrimitives">
+  <component name="RunManager" selected="Application.MoneyTypeRunner">
     <configuration name="AnonymousClassRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.AnonymousClassRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -207,8 +208,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leaf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.Leaf" />
+    <configuration name="MoneyTypeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.MoneyTypeRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -222,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoneyTypeRunner" />
         <item itemvalue="Application.ArraysOfPrimitives" />
         <item itemvalue="Application.EnumRunner" />
         <item itemvalue="Application.AnonymousClassRunner" />
         <item itemvalue="Application.BlocksRunnerTwo" />
-        <item itemvalue="Application.Leaf" />
       </list>
     </recent_temporary>
   </component>
