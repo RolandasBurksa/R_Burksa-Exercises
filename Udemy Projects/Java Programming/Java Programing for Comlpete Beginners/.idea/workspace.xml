@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/MoneyTypeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/DirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/MySortingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/MySortingUtilConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +66,7 @@
     "Application.ConcurrentMapRunner.executor": "Run",
     "Application.CopyOnWriteArraylistRunner.executor": "Run",
     "Application.CustomerRunner.executor": "Run",
+    "Application.DirectConsumer.executor": "Run",
     "Application.DirectoryScanRunner.executor": "Run",
     "Application.DoWhileRunner.executor": "Run",
     "Application.Dog.executor": "Run",
@@ -101,6 +105,7 @@
     "Application.MultipleAnyCallableRunner.executor": "Run",
     "Application.MultipleCallableRunner.executor": "Run",
     "Application.MyNumberRunner.executor": "Run",
+    "Application.MySortingUtilConsumer.executor": "Run",
     "Application.NumberOfDigitsRunner.executor": "Run",
     "Application.NumberUtilsRunner.executor": "Run",
     "Application.NumberUtilsTwoRunner.executor": "Run",
@@ -144,6 +149,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="section_34_Jawa_New_Features" />
       <recent name="section_27" />
       <recent name="section_20" />
     </key>
@@ -151,24 +157,12 @@
       <recent name="section_06" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="section_34_Jawa_New_Features" />
       <recent name="section_30" />
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoneyTypeRunner">
-    <configuration name="AnonymousClassRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.AnonymousClassRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_31_Java_Tips.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DirectConsumer">
     <configuration name="ArraysOfPrimitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.ArraysOfPrimitives" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -182,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlocksRunnerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.BlocksRunnerTwo" />
+    <configuration name="DirectConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.DirectConsumer" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_31_Java_Tips.*" />
+          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,13 +215,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySortingUtilConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.MySortingUtilConsumer" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DirectConsumer" />
+        <item itemvalue="Application.MySortingUtilConsumer" />
         <item itemvalue="Application.MoneyTypeRunner" />
         <item itemvalue="Application.ArraysOfPrimitives" />
         <item itemvalue="Application.EnumRunner" />
-        <item itemvalue="Application.AnonymousClassRunner" />
-        <item itemvalue="Application.BlocksRunnerTwo" />
       </list>
     </recent_temporary>
   </component>
