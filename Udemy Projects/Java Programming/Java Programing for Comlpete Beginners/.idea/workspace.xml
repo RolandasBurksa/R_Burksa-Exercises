@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/EnumRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_31_Java_Tips/ArraysOfPrimitives.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Application.AnonymousClassRunner.executor": "Run",
     "Application.ArrayMagicRunner.executor": "Run",
     "Application.ArrayMagicSecondRunner.executor": "Run",
+    "Application.ArraysOfPrimitives.executor": "Run",
     "Application.BiArrayRunner.executor": "Run",
     "Application.BlocksRunnerTwo.executor": "Run",
     "Application.Blocks_18.executor": "Debug",
@@ -153,7 +154,7 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumRunner">
+  <component name="RunManager" selected="Application.ArraysOfPrimitives">
     <configuration name="AnonymousClassRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.AnonymousClassRunner" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -167,8 +168,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlocksRunnerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.BlocksRunnerTwo" />
+    <configuration name="ArraysOfPrimitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.ArraysOfPrimitives" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -180,8 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.DogRunner" />
+    <configuration name="BlocksRunnerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.BlocksRunnerTwo" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -221,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysOfPrimitives" />
         <item itemvalue="Application.EnumRunner" />
         <item itemvalue="Application.AnonymousClassRunner" />
         <item itemvalue="Application.BlocksRunnerTwo" />
         <item itemvalue="Application.Leaf" />
-        <item itemvalue="Application.DogRunner" />
       </list>
     </recent_temporary>
   </component>
