@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/resources/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/CopyOfApiRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/FileReadWriteRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/PredicateNotRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/StringNewApiRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +66,7 @@
     "Application.ChocolateChip.executor": "Run",
     "Application.ConcurrencyRunner.executor": "Run",
     "Application.ConcurrentMapRunner.executor": "Run",
+    "Application.CopyOfApiRunner.executor": "Run",
     "Application.CopyOnWriteArraylistRunner.executor": "Run",
     "Application.CustomerRunner.executor": "Run",
     "Application.DirectConsumer.executor": "Run",
@@ -79,6 +85,7 @@
     "Application.FPNumberRunner.executor": "Run",
     "Application.FPNumberRunnerTwo.executor": "Run",
     "Application.FanRunner.executor": "Run",
+    "Application.FileReadWriteRunner.executor": "Run",
     "Application.FileWriteRunner.executor": "Run",
     "Application.FilterOddNumbers.executor": "Run",
     "Application.FinallyRunner.executor": "Run",
@@ -107,6 +114,7 @@
     "Application.NumberUtilsRunner.executor": "Run",
     "Application.NumberUtilsTwoRunner.executor": "Run",
     "Application.Output.executor": "Debug",
+    "Application.PredicateNotRunner.executor": "Run",
     "Application.Project.executor": "Run",
     "Application.QueueRunner.executor": "Run",
     "Application.RecipeRunner.executor": "Run",
@@ -121,6 +129,7 @@
     "Application.StringMagic2Runner.executor": "Run",
     "Application.StringMagic3Runner.executor": "Run",
     "Application.StringMagicRunner.executor": "Run",
+    "Application.StringNewApiRunner.executor": "Run",
     "Application.StudentRunner.executor": "Run",
     "Application.Student_ArrListRunner.executor": "Run",
     "Application.Student_ArrRunner.executor": "Run",
@@ -159,20 +168,7 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChocolateChip">
-    <configuration name="ArraysOfPrimitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.ArraysOfPrimitives" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_31_Java_Tips.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringNewApiRunner">
     <configuration name="ChocolateChip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.ChocolateChip" />
       <module name="Java Programing for Comlpete Beginners" />
@@ -186,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.DirectConsumer" />
+    <configuration name="CopyOfApiRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.CopyOfApiRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -199,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTypeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_31_Java_Tips.MoneyTypeRunner" />
+    <configuration name="FileReadWriteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.FileReadWriteRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_31_Java_Tips.*" />
+          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,8 +208,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySortingUtilConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.MySortingUtilConsumer" />
+    <configuration name="PredicateNotRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.PredicateNotRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringNewApiRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.StringNewApiRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -227,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringNewApiRunner" />
+        <item itemvalue="Application.PredicateNotRunner" />
+        <item itemvalue="Application.FileReadWriteRunner" />
+        <item itemvalue="Application.CopyOfApiRunner" />
         <item itemvalue="Application.ChocolateChip" />
-        <item itemvalue="Application.DirectConsumer" />
-        <item itemvalue="Application.MySortingUtilConsumer" />
-        <item itemvalue="Application.MoneyTypeRunner" />
-        <item itemvalue="Application.ArraysOfPrimitives" />
       </list>
     </recent_temporary>
   </component>
