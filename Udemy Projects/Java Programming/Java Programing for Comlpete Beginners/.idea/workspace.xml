@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1545d15a-ebe9-47b9-b011-2d02eaaf2347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/resources/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/CopyOfApiRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/FileReadWriteRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/PredicateNotRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/StringNewApiRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/RecordsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/SwitchExpressionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/TextBlocksRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Programming for Complete Beginners/src/section_34_Jawa_New_Features/TypeInferencesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +117,7 @@
     "Application.Project.executor": "Run",
     "Application.QueueRunner.executor": "Run",
     "Application.RecipeRunner.executor": "Run",
+    "Application.RecordsRunner.executor": "Run",
     "Application.RectangleRunner.executor": "Run",
     "Application.ReversedNumberRunner.executor": "Run",
     "Application.SetRunner.executor": "Run",
@@ -134,9 +134,11 @@
     "Application.Student_ArrListRunner.executor": "Run",
     "Application.Student_ArrRunner.executor": "Run",
     "Application.StudentsCollectionRunner.executor": "Run",
+    "Application.TextBlocksRunner.executor": "Run",
     "Application.TextSeparated.executor": "Run",
     "Application.ThrowingExceptionRunner.executor": "Run",
     "Application.TreadBasicsRunner.executor": "Run",
+    "Application.TypeInferencesRunner.executor": "Run",
     "Application.Weekdays.executor": "Run",
     "Application.Weekdays_02.executor": "Run",
     "Application.WhileNumberPlayerRunner.executor": "Run",
@@ -168,48 +170,22 @@
       <recent name="section_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringNewApiRunner">
-    <configuration name="ChocolateChip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.ChocolateChip" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyOfApiRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.CopyOfApiRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileReadWriteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.FileReadWriteRunner" />
-      <module name="Java Programing for Comlpete Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RecordsRunner">
     <configuration name="PredicateNotRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.PredicateNotRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecordsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.RecordsRunner" />
       <module name="Java Programing for Comlpete Beginners" />
       <extension name="coverage">
         <pattern>
@@ -234,13 +210,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextBlocksRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.TextBlocksRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeInferencesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section_34_Jawa_New_Features.TypeInferencesRunner" />
+      <module name="Java Programing for Comlpete Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section_34_Jawa_New_Features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecordsRunner" />
+        <item itemvalue="Application.TextBlocksRunner" />
+        <item itemvalue="Application.TypeInferencesRunner" />
         <item itemvalue="Application.StringNewApiRunner" />
         <item itemvalue="Application.PredicateNotRunner" />
-        <item itemvalue="Application.FileReadWriteRunner" />
-        <item itemvalue="Application.CopyOfApiRunner" />
-        <item itemvalue="Application.ChocolateChip" />
       </list>
     </recent_temporary>
   </component>
