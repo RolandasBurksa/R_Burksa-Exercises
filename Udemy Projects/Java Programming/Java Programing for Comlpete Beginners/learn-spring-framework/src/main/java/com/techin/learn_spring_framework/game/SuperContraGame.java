@@ -1,10 +1,8 @@
 package com.techin.learn_spring_framework.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements GamingConsole{
 
-    public void up() {
-        System.out.println("up");
-    }
+    public void up() { System.out.println("up"); }
     public void down() {
         System.out.println("Sid down");
     }
