@@ -1,10 +1,8 @@
-package com.techin.learn_spring_framework;
+package com.techin.learn_spring_framework.helloworld;
 
-import com.techin.learn_spring_framework.game.GameRunner;
-import com.techin.learn_spring_framework.game.PacManGame;
+import com.techin.learn_spring_framework.helloworld.Address;
+import com.techin.learn_spring_framework.helloworld.Person;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.util.Arrays;
 
 public class App02HelloWorldSpring {
 

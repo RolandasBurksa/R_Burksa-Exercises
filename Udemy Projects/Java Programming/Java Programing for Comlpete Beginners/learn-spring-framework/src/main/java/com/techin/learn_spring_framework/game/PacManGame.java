@@ -3,7 +3,7 @@ package com.techin.learn_spring_framework.game;
 public class PacManGame implements GamingConsole{
     @Override
     public void up() {
-        System.out.println("Get up");
+        System.out.println("Get up PacMan");
     }
 
     @Override
