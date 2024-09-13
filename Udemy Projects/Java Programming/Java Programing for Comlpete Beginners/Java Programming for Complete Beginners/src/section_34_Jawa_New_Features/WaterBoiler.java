@@ -20,5 +20,19 @@ public class WaterBoiler {
         } else {
             System.out.println("Not boiling");
         }
+
+        System.out.print("Input the color / red / green / black: ");
+        Scanner scanner01 = new Scanner(System.in);
+        String color = scanner01.next();
+        switch (color) {
+            case "red":
+                System.out.println("1");
+                break;
+            case "green":
+                System.out.println("2");
+                break;
+            case "black":
+                System.out.println("3");
+        }
     }
 }
