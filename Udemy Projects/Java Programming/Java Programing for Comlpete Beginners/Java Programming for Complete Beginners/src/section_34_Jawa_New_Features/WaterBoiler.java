@@ -34,5 +34,15 @@ public class WaterBoiler {
             case "black":
                 System.out.println("3");
         }
+
+//        Scanner scanner = new Scanner(System.in);
+//        int n = scanner.nextInt();
+//        int sum = 0;
+//        int number = 1;
+//        while (number <= n){
+//            sum  += n;
+//            n -- ;
+//        }
+//        System.out.println(sum);
     }
 }
