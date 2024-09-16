@@ -44,5 +44,14 @@ public class WaterBoiler {
 //            n -- ;
 //        }
 //        System.out.println(sum);
+
+        long fact = 1;
+//        Scanner scanner = new Scanner(System.in);
+        long n = scanner.nextLong();
+        for (long i = n; i > 0; i-- ) {
+            fact *=i;
+        }
+        System.out.println(fact);
+
     }
 }
