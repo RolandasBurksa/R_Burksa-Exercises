@@ -53,5 +53,31 @@ public class WaterBoiler {
         }
         System.out.println(fact);
 
+        String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"};
+        Scanner sc = new Scanner(System.in);
+        //your code goes here
+        int integer = sc.nextInt();
+        if (integer >= 0 && integer <= 4 ) {
+            switch (integer) {
+                case 0:
+                    System.out.println("Tea");
+                    break;
+                case 1:
+                    System.out.println("Espresso");
+                    break;
+                case 2:
+                    System.out.println("Americano");
+                    break;
+                case 3:
+                    System.out.println("Water");
+                    break;
+                case 4:
+                    System.out.println("Hot Chocolate");
+            }
+        } else {
+            System.out.println("Invalid");
+        }
+
+
     }
 }
