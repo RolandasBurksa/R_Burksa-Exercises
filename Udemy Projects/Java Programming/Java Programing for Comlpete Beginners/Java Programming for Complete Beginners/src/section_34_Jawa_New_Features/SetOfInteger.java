@@ -1,8 +1,10 @@
 package section_34_Jawa_New_Features;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
+import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
 public class SetOfInteger {
@@ -31,5 +33,26 @@ public class SetOfInteger {
                 .forEach(intset::add);
 
         System.out.println(intset);
+
+        System.out.println("__________________________");
+        double[] revenue = {88750, 125430, 99700, 14500, 158000, 65000, 99000, 189000, 210000, 42000, 165800, 258900};
+        //your code goes here
+        double sum = 0;
+        for (double rev:revenue){
+            sum +=rev;
+        }
+        System.out.println(sum / revenue.length);
+
+        System.out.println("--------     --------");
+        Arrays.stream(revenue).sum();
+        System.out.println(sum / revenue.length);
+
+        System.out.println("***   ___   ***");
+        // Calculate the average using streams
+        double average = Arrays.stream(revenue)  // Create a DoubleStream from the revenue array
+                .average()        // Calculate the average
+                .orElse(0);       // Handle the case where the array might be empty
+
+        System.out.println(average);
     }
 }
