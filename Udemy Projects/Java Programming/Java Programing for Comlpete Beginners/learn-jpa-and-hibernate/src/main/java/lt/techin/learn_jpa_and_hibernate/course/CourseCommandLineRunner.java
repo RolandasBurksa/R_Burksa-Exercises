@@ -1,15 +1,19 @@
-package lt.techin.learn_jpa_and_hibernate.course.jdbc;
+package lt.techin.learn_jpa_and_hibernate.course;
 
-import lt.techin.learn_jpa_and_hibernate.course.Course;
+import lt.techin.learn_jpa_and_hibernate.course.jdbc.CourseJdbcRepository;
+import lt.techin.learn_jpa_and_hibernate.course.jpa.CourseJpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CourseJdbcCommandLineRunner implements CommandLineRunner {
+public class CourseCommandLineRunner implements CommandLineRunner {
+
+//    @Autowired
+//    private CourseJdbcRepository repository;
 
     @Autowired
-    private CourseJdbcRepository repository;
+    private CourseJpaRepository repository;
 
     @Override
     public void run(String... args) throws Exception {
