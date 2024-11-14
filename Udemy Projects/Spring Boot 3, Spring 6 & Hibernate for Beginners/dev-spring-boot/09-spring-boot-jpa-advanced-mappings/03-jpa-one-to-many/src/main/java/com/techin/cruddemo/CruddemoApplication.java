@@ -42,8 +42,23 @@ public class CruddemoApplication {
 
 			// updateInstructor(appDAO);
 
-			updateCourse(appDAO);
+			// updateCourse(appDAO);
+
+			// deleteInstructor(appDAO);
+
+			deleteCourse(appDAO);
 		};
+	}
+
+	private void deleteCourse(AppDAO appDAO) {
+
+		int theId = 10;
+
+		System.out.println("Deleting course id: " + theId);
+
+		appDAO.deleteCourseById(theId);
+
+		System.out.println("Done, Course deleted!");
 	}
 
 	private void updateCourse(AppDAO appDAO) {
@@ -51,8 +66,10 @@ public class CruddemoApplication {
 		int theId = 10;
 
 		// find the course
-		System.out.println("Finding couse id: " + theId);
+		System.out.println("Finding course id: " + theId);
 		Course tempCourse = appDAO.findCourseById(theId);
+
+		System.out.println("Done!..");
 
 		// update the course
 		System.out.println("Updating the course id: " + theId);
