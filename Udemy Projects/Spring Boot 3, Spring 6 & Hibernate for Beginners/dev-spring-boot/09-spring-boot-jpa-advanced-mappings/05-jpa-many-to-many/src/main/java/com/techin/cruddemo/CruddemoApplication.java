@@ -1,15 +1,13 @@
 package com.techin.cruddemo;
 
 import com.techin.cruddemo.dao.AppDAO;
-import com.techin.cruddemo.entity.Course;
-import com.techin.cruddemo.entity.Instructor;
-import com.techin.cruddemo.entity.InstructorDetail;
-import com.techin.cruddemo.entity.Review;
+import com.techin.cruddemo.entity.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import javax.xml.transform.Source;
 import java.util.List;
 
 @SpringBootApplication
@@ -24,13 +22,57 @@ public class CruddemoApplication {
 
 		return runner -> {
 
-			//createCourseAndReviews(appDAO);
+			// createCourseAndStudents(appDAO);
 
-			// retrieveCourseAndReviews(appDAO);
+			// findCourseAndStudents(appDAO);
 
-			deleteCourseAndReviews(appDAO);
-
+			findStudentAndCourses(appDAO);
 		};
+	}
+
+	private void findStudentAndCourses(AppDAO appDAO) {
+
+		int theId = 2;
+		Student tempStudent = appDAO.findStudentAndCoursesByStudentID(theId);
+
+		System.out.println("Loaded student: " + tempStudent);
+		System.out.println("Courses: " + tempStudent.getCourses());
+
+		System.out.println("Done! .");
+	}
+
+	private void findCourseAndStudents(AppDAO appDAO) {
+
+		int theId = 10;
+		Course tempCourse = appDAO.findCourseAndStudentsByCourseTd(theId);
+
+		System.out.println("Loaded course: " + tempCourse);
+		System.out.println("Students: " + tempCourse.getStudents());
+
+		System.out.println("Done!..");
+	}
+
+	private void createCourseAndStudents(AppDAO appDAO) {
+
+		// create a course
+		Course tempCourse = new Course("Pacman - How to burn a lot of your time...");
+
+		// create the students
+		Student tempStudent1 = new Student("Andrius", "Mandrius", "andrius@gmail.com");
+		Student tempStudent2 = new Student("Maryte", "Auryte", "maryte@gmail.com");
+
+		// add students to the course
+		tempCourse.addStudent(tempStudent1);
+		tempCourse.addStudent(tempStudent2);
+
+		// save the course and associated students
+		System.out.println("Saving the course: " + tempCourse);
+		System.out.println("associated students: " + tempCourse.getStudents());
+
+		appDAO.save(tempCourse);
+
+		System.out.println("Done!.");
+
 	}
 
 	private void deleteCourseAndReviews(AppDAO appDAO) {
