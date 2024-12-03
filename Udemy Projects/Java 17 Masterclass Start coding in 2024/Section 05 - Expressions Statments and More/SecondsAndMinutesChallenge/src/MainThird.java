@@ -16,7 +16,7 @@ public class MainThird {
         }
 
         int minutes = seconds / 60;
-//        return getDurationString(minutes, seconds);   // second can be more than 59.
+//        return getDurationString(minutes, seconds);   // in general seconds can be more than 59.
         return getDurationString(minutes, seconds % 60);
     };
 
