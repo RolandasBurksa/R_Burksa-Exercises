@@ -4,7 +4,7 @@ public class MainTaskTwo {
 
         printDayOfWeek(0);
         printDayOfWeek(9);
-        
+
         dayOfTheWeek(0);
         dayOfTheWeek(9);
 
