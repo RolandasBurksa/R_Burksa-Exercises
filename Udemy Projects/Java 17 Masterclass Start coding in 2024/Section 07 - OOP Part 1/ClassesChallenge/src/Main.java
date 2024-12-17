@@ -22,5 +22,19 @@ public class Main {
         Account timsAccount = new Account("Tim", "tim@email.com", "123456");
         System.out.println("AccountNo: " + timsAccount.getNumber() + "; name - " + timsAccount.getCustomerName());
 
+
+        Customer customer = new Customer();
+
+        Customer customerBob = new Customer("Bob", 1000.00, "bob@email.com");
+
+        System.out.println(customerBob.getName());
+        System.out.println(customerBob.getCreditLimit());
+        System.out.println(customerBob.getEmailAddress());
+
+        Customer customerAda = new Customer();
+
+        System.out.println(customerAda.getName());
+        System.out.println(customerAda.getCreditLimit());
+        System.out.println(customerAda.getEmailAddress());
     }
 }
