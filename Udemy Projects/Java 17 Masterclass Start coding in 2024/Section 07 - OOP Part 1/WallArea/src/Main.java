@@ -12,5 +12,12 @@ public class Main {
         System.out.println("height = " + wall.getHeight());
         System.out.println(" area = " + wall.getArea());
 
+
+        Point point = new Point(2, 8);
+        System.out.println("The distance is = " + point.distance());
+        point.setX(2);
+        point.setY(8);
+        System.out.println("The distance is = " + point.distance());
+
     }
 }
