@@ -2,11 +2,16 @@ public class CoffeeMaker {
 
     private boolean hasWorkToDo;
 
-    public CoffeeMaker(boolean hasWorkToDo) {
+    public void setHasWorkToDo(boolean hasWorkToDo) {
         this.hasWorkToDo = hasWorkToDo;
     }
 
-    public static void brewCoffee() {
+    public void brewCoffee() {
+
+        if (hasWorkToDo) {
+            System.out.println("Brewing Coffee");
+            hasWorkToDo = false;
+        }
 
     }
 }
