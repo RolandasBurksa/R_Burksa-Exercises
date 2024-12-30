@@ -12,12 +12,22 @@ public class Printer {
 
     public int addToner(int tonerAmount){
 
-        int tempAmount = tonerAmount + tonerLevel;
-        if (tempAmount > 100 || tempAmount < 0){
+//        int tempAmount = tonerAmount + tonerLevel;
+//        if (tempAmount > 100 || tempAmount < 0){
+//            return -1;
+//        }
+//        tonerLevel += tonerAmount;
+//        return tonerLevel;
+        
+        if (tonerAmount <= 0 || tonerAmount > 100){
             return -1;
         }
-        tonerLevel += tonerAmount;
-        return tonerLevel;
+
+        if (this.tonerLevel + tonerAmount > 100){
+            return -1;
+        }
+        this.tonerLevel += tonerAmount;
+        return this.tonerLevel;
     }
 
     public int printPages(int pages){
