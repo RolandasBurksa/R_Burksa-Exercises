@@ -18,7 +18,7 @@ public class Printer {
 //        }
 //        tonerLevel += tonerAmount;
 //        return tonerLevel;
-        
+
         if (tonerAmount <= 0 || tonerAmount > 100){
             return -1;
         }
