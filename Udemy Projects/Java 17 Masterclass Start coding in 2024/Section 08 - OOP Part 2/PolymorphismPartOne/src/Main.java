@@ -15,12 +15,12 @@ public class Main {
 
         Scanner s = new Scanner(System.in);
         while (true) {
-            System.out.println("Enter movie type A, C, S or Q to quit: ");
+            System.out.print("Enter movie type A, C, S or Q to quit: ");
             String type = s.nextLine();
             if ("Qq".contains(type)) {
                 break;
             }
-            System.out.println("Enter Movie Title: ");
+            System.out.print("Enter Movie Title: ");
             String title = s.nextLine();
             Movie movie = Movie.getMovie(type, title);
             movie.watchMovie();
