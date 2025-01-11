@@ -42,7 +42,7 @@ public class MobilePhone {
     public boolean updateContact(Contact oldContact, Contact newContact) {
         int foundPosition = findContact(oldContact);
         if (foundPosition < 0) {
-            System.out.println("Contact not found.");
+            System.out.println(oldContact.getName() + ", was not found.");
             return false;
         }
         myContacts.set(foundPosition, newContact);
