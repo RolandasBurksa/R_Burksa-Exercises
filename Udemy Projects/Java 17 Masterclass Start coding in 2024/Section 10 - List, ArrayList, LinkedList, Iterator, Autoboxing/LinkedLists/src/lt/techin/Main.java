@@ -24,7 +24,10 @@ public class Main {
 
 //        printItinerary(placesToVisit);
 //        printItinerary2(placesToVisit);
-        printItinerary3(placesToVisit);
+//        printItinerary3(placesToVisit);
+
+        testIterator(placesToVisit);
+
     }
 
     private static void addMoreElements(LinkedList<String> list) {
@@ -120,6 +123,25 @@ public class Main {
             previousTown = town;
         }
         System.out.println("Trip ends at " + list.getLast());
+    }
+
+    private static void testIterator(LinkedList<String> list) {
+
+        var iterator = list.listIterator();
+        while (iterator.hasNext()) {
+//            System.out.println(iterator.next());
+            if (iterator.next().equals("Brisbane")) {
+                iterator.add("Lake Wivenhoe");
+            }
+        }
+        while (iterator.hasPrevious()) {
+            System.out.println(iterator.previous());
+        }
+
+        System.out.println(list);
+
+        var iterator2 = list.listIterator(3);
+        System.out.println(iterator2.previous());
     }
 
 }
