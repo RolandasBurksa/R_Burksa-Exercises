@@ -35,6 +35,12 @@ public class Main {
 
         System.out.println("Getting array");
         PlainOld[] pojo1 = seedArray(PlainOld::new, 10);
+
+//        calculator((s1, s2) -> s1 + s2, "Hello ", "World");
+//        calculator((s1, s2) -> s1.concat(s2), "Hello ", "World");
+        calculator(String::concat, "Hello ", "World");
+
+
     }
 
     private static <T> void calculator(BinaryOperator<T> function, T value1, T value2) {
