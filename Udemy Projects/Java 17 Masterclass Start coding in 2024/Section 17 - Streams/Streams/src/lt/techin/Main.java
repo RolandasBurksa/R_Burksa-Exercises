@@ -128,4 +128,18 @@ public class Main {
             return true;
         }
 
+//    public static boolean isPrime(int wholeNumber) {
+//        if (wholeNumber < 2) return false;
+//        if (wholeNumber == 2) return true;
+//        if (wholeNumber % 2 == 0) return false; // Eliminate even numbers early
+//
+//        for (int divisor = 3; divisor <= Math.sqrt(wholeNumber); divisor += 2) {
+//            if (wholeNumber % divisor == 0) {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+
+
 }
