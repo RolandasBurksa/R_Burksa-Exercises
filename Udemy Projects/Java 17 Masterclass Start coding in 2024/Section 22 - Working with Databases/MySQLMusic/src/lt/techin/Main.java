@@ -1,5 +1,7 @@
 package lt.techin;
 
+import com.mysql.cj.jdbc.MysqlDataSource;
+
 import javax.swing.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +10,7 @@ import java.util.Arrays;
 
 public class Main {
 
-    private final static String CONN_STRING = "jdbc:mysql//localhost:3306/music";
+    private final static String CONN_STRING = "jdbc:mysql://localhost:3306/music";
 
     public static void main(String[] args) {
 
@@ -21,9 +23,18 @@ public class Main {
         final char[] password =
                 (okCxl == JOptionPane.OK_OPTION) ? pf.getPassword() : null;
 
-        try (Connection connection = DriverManager.getConnection(
-                CONN_STRING, username, String.valueOf(password))) {
+        var dataSource = new MysqlDataSource();
+//        dataSource.setURL(CONN_STRING);
 
+        dataSource.setServerName("localhost");
+        dataSource.setPort(3306);
+        dataSource.setDatabaseName("music");
+
+//        try (Connection connection = DriverManager.getConnection(
+//                CONN_STRING, username, String.valueOf(password))) {
+
+        try (Connection connection = dataSource.getConnection(
+                username, String.valueOf(password))) {
             System.out.println("Success!! Connection made to the music database");
             Arrays.fill(password, ' ');
         } catch (SQLException e) {
