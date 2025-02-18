@@ -9,7 +9,7 @@ public class CreateThread {
         w.start();
 
 //        //Runnable1
-        MyRunnable runnable = new MyRunnable();
+        MyRunnableA runnable = new MyRunnableA();
         Thread t = new Thread(runnable);
         t.start();
 
