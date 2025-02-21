@@ -34,8 +34,9 @@ public class Main {
                 setUpSchema(conn);
             }
 
-            int newOrder = addOrder(conn, new String[]{"shoes", "shirt", "socks"});
-            System.out.println("New Order = " + newOrder);
+            deleteOrder(conn,2);
+//            int newOrder = addOrder(conn, new String[]{"shoes", "shirt", "socks"});
+//            System.out.println("New Order = " + newOrder);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -97,7 +98,7 @@ public class Main {
         }
     }
 
-    private static int addOrder(Connection conn, String[] items) {
+    private static int addOrder(Connection conn, String[] items) throws SQLException {
 
         int orderId = -1;
         String insertOrder = "INSERT INTO storefront.order (order_date) VALUES ('%s')";
@@ -115,6 +116,62 @@ public class Main {
         String insertOrderAlternative =  "INSERT INTO storefront.order (order_date) " + "VALUES ('%1$tF %1$tT')";
         System.out.println(insertOrderAlternative.formatted(LocalDateTime.now()));
 
+        try (Statement statement = conn.createStatement()) {
+
+            conn.setAutoCommit(false);
+            int inserts = statement.executeUpdate(formattedString, Statement.RETURN_GENERATED_KEYS);
+
+            if (inserts == 1) {
+                var rs = statement.getGeneratedKeys();
+                if (rs.next()) {
+                    orderId = rs.getInt(1);
+                }
+            }
+
+            int count = 0;
+            for (var item : items) {
+                formattedString = insertDetail.formatted(orderId, statement.enquoteLiteral(item));
+                inserts = statement.executeUpdate(formattedString);
+                count +=inserts;
+            }
+
+            if (count != items.length) {
+                orderId = -1;
+                System.out.println("Number of records inserted doesn't equal items received");
+                conn.rollback();
+            } else {
+                conn.commit();
+            }
+            conn.setAutoCommit(true);
+        } catch (SQLException e) {
+            conn.rollback();
+            throw new RuntimeException(e);
+        }
         return orderId;
+    }
+
+    private static void deleteOrder(Connection conn, int orderId) throws SQLException {
+
+        String deleteOrder = "DELETE FROM %s where order_id=%d";
+        String parentQuery = deleteOrder.formatted( "storefront.order", orderId);
+        String childQuery = deleteOrder.formatted("storefront.order_details", orderId);
+
+        try (Statement statement = conn.createStatement()) {
+            conn.setAutoCommit(false);
+            int deleteRecords = statement.executeUpdate(childQuery);
+            System.out.printf("%d child records deleted%n", deleteRecords);
+            deleteRecords = statement.executeUpdate(parentQuery);
+            if (deleteRecords == 1) {
+                conn.commit();
+                System.out.printf("Order %d was successfully deleted", orderId);
+            } else {
+                conn.rollback();
+            }
+        } catch (SQLException e) {
+            conn.rollback();
+            throw new RuntimeException(e);
+        } finally {
+            conn.setAutoCommit(true);
+        }
     }
 }
