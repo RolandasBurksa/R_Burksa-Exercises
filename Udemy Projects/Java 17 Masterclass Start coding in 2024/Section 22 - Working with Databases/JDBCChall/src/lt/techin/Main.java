@@ -6,6 +6,9 @@ import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
 
 public class Main {
 
@@ -30,6 +33,10 @@ public class Main {
                 System.out.println("storefront schema does not exist");
                 setUpSchema(conn);
             }
+
+            int newOrder = addOrder(conn, new String[]{"shoes", "shirt", "socks"});
+            System.out.println("New Order = " + newOrder);
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -88,5 +95,26 @@ public class Main {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    private static int addOrder(Connection conn, String[] items) {
+
+        int orderId = -1;
+        String insertOrder = "INSERT INTO storefront.order (order_date) VALUES ('%s')";
+        String insertDetail = "INSERT INTO storefront.order_details " +
+                "(order_id, item_description) values(%d, %s)";
+
+        DateTimeFormatter dtf =
+                DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+        String orderDateTime = LocalDateTime.now().format(dtf);
+        System.out.println(orderDateTime);
+        String formattedString = insertOrder.formatted(orderDateTime);
+        System.out.println(formattedString);
+
+        String insertOrderAlternative =  "INSERT INTO storefront.order (order_date) " + "VALUES ('%1$tF %1$tT')";
+        System.out.println(insertOrderAlternative.formatted(LocalDateTime.now()));
+
+        return orderId;
     }
 }
