@@ -59,43 +59,54 @@ public class WebScraperWithLogin {
                 .cookies(cookies)
                 .get();
 
-//        Connection.Response response = Jsoup.connect(SEARCH_URL)
-//                .cookies(cookies)
-//                .data("query", "5326121") // Update field name
-//                .method(Connection.Method.POST)
-//                .execute();
-
         System.out.println("Search results retrieved for: " + query);
         return doc;
     }
 
     // Extract and copy product information
     private static void extractAndCopyProductInfo(Document doc) {
-        Elements products = doc.select("p_matnr"); // Adjust CSS selector as needed
 
-        if (!products.isEmpty()) {
-            StringBuilder productInfo = new StringBuilder();
+        Elements numbers = doc.select("span.urTxtStd.urVt1");
 
-            for (Element product : products) {
-                String name = product.select(".product-title").text(); // Adjust CSS selector
-                String price = product.select(".product-price").text(); // Adjust CSS selector
+//        Elements numbers = doc.select("span.TextView.urTxtEmph_urVt1.Comm./imp._code_no.");
 
-                if (!name.isEmpty() && !price.isEmpty()) {
-                    productInfo.append("Product: ").append(name)
-                            .append(" - Price: ").append(price)
-                            .append("\n");
-                }
-            }
-
-            if (productInfo.length() > 0) {
-                System.out.println(productInfo.toString());
-                copyToClipboard(productInfo.toString());
-            } else {
-                System.out.println("No products found.");
-            }
+        if (numbers.size() >= 3) {
+            System.out.println("Comm./imp. code no.: " + numbers.get(0).text());
+            System.out.println("Gross Weight: " + numbers.get(1).text());
+            System.out.println("Volume: " + numbers.get(2).text());
         } else {
-            System.out.println("No products found.");
+            System.out.println("Not enough data found.");
         }
+
+
+
+//        Elements products = doc.select(".p_matnr"); // Adjust CSS selector as needed
+
+//        if (!products.isEmpty()) {
+//            StringBuilder productInfo = new StringBuilder();
+//
+//            for (Element product : products) {
+//                String name = product.select(".product-title").text(); // Adjust CSS selector
+//                String price = product.select(".product-price").text(); // Adjust CSS selector
+//
+//                if (!name.isEmpty() && !price.isEmpty()) {
+//                    productInfo.append("Product: ").append(name)
+//                            .append(" - Price: ").append(price)
+//                            .append("\n");
+//                }
+//            }
+
+//            if (productInfo.length() > 0) {
+//                System.out.println(productInfo.toString());
+//                copyToClipboard(productInfo.toString());
+//            } else {
+//                System.out.println("No products found - first.");
+//            }
+//        } else {
+//            System.out.println("No products found - second.");
+//        }
+
+
     }
 
     // Method to copy text to clipboard
