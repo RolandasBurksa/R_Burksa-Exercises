@@ -65,18 +65,30 @@ public class WebScraperWithLogin {
 
     // Extract and copy product information
     private static void extractAndCopyProductInfo(Document doc) {
+        
+        // Extract numbers using tr:nth-of-type
+        String commCode = doc.select("tr:nth-of-type(1) span.urTxtStd.urVt1").text();
+        String grossWeight = doc.select("tr:nth-of-type(2) span.urTxtStd.urVt1").text();
+        String volume = doc.select("tr:nth-of-type(3) span.urTxtStd.urVt1").text();
 
-        Elements numbers = doc.select("span.urTxtStd.urVt1");
+        // Print extracted values
+        System.out.println("Comm./imp. code no.: " + commCode);
+        System.out.println("Gross Weight: " + grossWeight);
+        System.out.println("Volume: " + volume);
 
-//        Elements numbers = doc.select("span.TextView.urTxtEmph_urVt1.Comm./imp._code_no.");
 
-        if (numbers.size() >= 3) {
-            System.out.println("Comm./imp. code no.: " + numbers.get(0).text());
-            System.out.println("Gross Weight: " + numbers.get(1).text());
-            System.out.println("Volume: " + numbers.get(2).text());
-        } else {
-            System.out.println("Not enough data found.");
-        }
+
+
+
+//        Elements numbers = doc.select("span.urTxtStd.urVt1");
+
+//        if (numbers.size() >= 3) {
+//            System.out.println("Comm./imp. code no.: " + numbers.get(0).text());
+//            System.out.println("Gross Weight: " + numbers.get(1).text());
+//            System.out.println("Volume: " + numbers.get(2).text());
+//        } else {
+//            System.out.println("Not enough data found.");
+//        }
 
 
 
