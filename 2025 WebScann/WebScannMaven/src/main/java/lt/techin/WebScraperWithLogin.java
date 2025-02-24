@@ -65,7 +65,7 @@ public class WebScraperWithLogin {
 
     // Extract and copy product information
     private static void extractAndCopyProductInfo(Document doc) {
-        
+
         // Extract numbers using tr:nth-of-type
         String commCode = doc.select("tr:nth-of-type(1) span.urTxtStd.urVt1").text();
         String grossWeight = doc.select("tr:nth-of-type(2) span.urTxtStd.urVt1").text();
