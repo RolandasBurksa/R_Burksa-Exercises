@@ -16,7 +16,7 @@ public class MainQuery {
         List<Artist> artists = null;
         try ( EntityManagerFactory emf = Persistence.createEntityManagerFactory(
                 "lt.techin.music");
-              EntityManager em = emf.createEntityManager();) {
+              EntityManager em = emf.createEntityManager()) {
 
             var transaction = em.getTransaction();
             transaction.begin();
