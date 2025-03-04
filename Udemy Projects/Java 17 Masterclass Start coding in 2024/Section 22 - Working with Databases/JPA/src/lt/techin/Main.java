@@ -10,13 +10,14 @@ public class Main {
 
         try (var sessionFactory =
                      Persistence.createEntityManagerFactory("lt.techin.music");
-             EntityManager entityManager = sessionFactory.createEntityManager();
+             EntityManager entityManager = sessionFactory.createEntityManager()
              ) {
 
             var transaction = entityManager.getTransaction();
             transaction.begin();
             Artist artist = entityManager.find(Artist.class, 202);
-            artist.setArtistName("Muddy Waters");
+            System.out.println(artist);
+            artist.addAlbum("The Best of Muddy Waters");
             System.out.println(artist);
 //            entityManager.remove(artist);
 //            entityManager.persist(new Artist("Muddy Water"));
