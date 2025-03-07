@@ -7,15 +7,15 @@ class Logger {
 }
 
 class LoggingToFileA {
-        private Logger logger;
+    private Logger logger;
 
     public LoggingToFileA(Logger logger) {
-            this.logger = logger;
-        }
+        this.logger = logger;
+    }
 
-        public void logging() {
-            logger.logInformation("A B C");
-        }
+    public void logging() {
+        logger.logInformation("A B C");
+    }
 }
 
 class LoggingToFile {
