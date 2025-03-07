@@ -1,15 +1,20 @@
 package lt.techin;
 
-class Logger {
+
+interface ILogger {
+    public void logInformation(String logInfo);
+}
+
+class Logger implements ILogger {
     public void logInformation(String logInfo) {
         System.out.println(logInfo);
     }
 }
 
 class LoggingToFileA {
-    private Logger logger;
+    private ILogger logger;
 
-    public LoggingToFileA(Logger logger) {
+    public LoggingToFileA(ILogger logger) {
         this.logger = logger;
     }
 
