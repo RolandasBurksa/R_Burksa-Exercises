@@ -2,7 +2,7 @@ package lt.techin;
 
 
 interface ILogger {
-    public void logInformation(String logInfo);
+    void logInformation(String logInfo);
 }
 
 class Logger implements ILogger {
@@ -11,12 +11,7 @@ class Logger implements ILogger {
     }
 }
 
-class LoggingToFileA {
-    private ILogger logger;
-
-    public LoggingToFileA(ILogger logger) {
-        this.logger = logger;
-    }
+record LoggingToFileA(ILogger logger) {
 
     public void logging() {
         logger.logInformation("A B C");
