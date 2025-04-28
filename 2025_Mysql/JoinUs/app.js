@@ -11,14 +11,14 @@ app.use(express.static(__dirname + "/public"));
 const connection = mysql.createConnection({
   host: "localhost", // your host, usually localhost
   user: "root", // your MySQL username
-  password: "rbjavacoding@", // your MySQL password
-  database: "book_shop", // your database name
+  password: "**********", // your MySQL password
+  database: "join_us", // your database name
 });
 
 app.get("/", function (req, res) {
   //   console.log("SOMEONE REQUESTED US!.");
   //   Find count of users in DB
-  var q = "SELECT COUNT(*) AS count FROM books";
+  var q = "SELECT COUNT(*) AS count FROM users";
   connection.query(q, function (err, results) {
     if (err) throw err;
     var count = results[0].count;
@@ -28,7 +28,11 @@ app.get("/", function (req, res) {
 });
 
 app.post("/register", function (req, res) {
-  console.log("POST REQUEST SENT TO /REGISTER!." + req.body.email);
+  var person = { email: req.body.email };
+  connection.query("INSERT INTO users SET ?", person, function (err, result) {
+    console.log("POST REQUEST SENT TO /REGISTER!." + req.body.email);
+    res.redirect("/");
+  });
 });
 
 app.get("/joke", function (req, res) {

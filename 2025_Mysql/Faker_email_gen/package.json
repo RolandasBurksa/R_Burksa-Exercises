@@ -1,0 +1,19 @@
+{
+  "name": "faker_email_gen",
+  "version": "1.0.0",
+  "description": "fake email gener",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email",
+    "gen"
+  ],
+  "author": "RolandasB",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "mysql2": "^3.14.1"
+  }
+}
